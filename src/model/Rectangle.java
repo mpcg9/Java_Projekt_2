@@ -5,7 +5,6 @@ import java.awt.geom.Point2D;
 /**
  * Represents a Rectangle.
  * @author florian
- *
  */
 public class Rectangle {
 	private Point2D.Double topleft;
