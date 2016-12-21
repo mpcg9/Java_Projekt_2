@@ -7,31 +7,31 @@ import java.awt.geom.Point2D;
  * @author florian
  */
 public class Rectangle {
-	private Point2D.Double topleft;
+	private Point2D.Double botleft;
 	private double width;
 	private double height;
 	
 	/**
 	 * Creates a rectangle with the following parameters:
-	 * @param topleft The point to the top left of the rectangle.
+	 * @param botleft The point to the bottom left of the rectangle.
 	 * @param width The width of the rectangle.
 	 * @param height The height of the rectangle.
 	 */
-	public Rectangle(Point2D.Double topleft, double width, double height){
-		this.topleft = topleft;
+	public Rectangle(Point2D.Double botleft, double width, double height){
+		this.botleft = botleft;
 		this.width = width;
 		this.height = height;
 	}
 	
 	/**
 	 * Creates a rectangle with the following parameters:
-	 * @param topY The y-coordinate of the top left point of the rectangle.
-	 * @param leftX The x-coordinate of the top left point of the rectangle.
+	 * @param topY The y-coordinate of the bottom left point of the rectangle.
+	 * @param leftX The x-coordinate of the bottom left point of the rectangle.
 	 * @param width The width of the rectangle.
 	 * @param height The height of the rectangle.
 	 */
 	public Rectangle(double topY, double leftX, double width, double height){
-		this.topleft = new Point2D.Double(leftX, topY);
+		this.botleft = new Point2D.Double(leftX, topY);
 		this.width = width;
 		this.height = height;
 	}
@@ -43,13 +43,13 @@ public class Rectangle {
 	 * @return true if and only if the rectangles do collide.
 	 */
 	public static boolean collide(Rectangle r1, Rectangle r2){
-		if(r1.height + r1.topleft.y < r2.topleft.y)
+		if(r1.height + r1.botleft.y < r2.botleft.y)
 			return false;
-		if(r2.height + r2.topleft.y < r1.topleft.y)
+		if(r2.height + r2.botleft.y < r1.botleft.y)
 			return false;
-		if(r1.width + r1.topleft.x < r2.topleft.x)
+		if(r1.width + r1.botleft.x < r2.botleft.x)
 			return false;
-		if(r2.width + r2.topleft.x < r1.topleft.x)
+		if(r2.width + r2.botleft.x < r1.botleft.x)
 			return false;
 		return true;
 	}
