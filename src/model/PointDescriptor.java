@@ -3,7 +3,7 @@ package model;
 import java.awt.geom.Point2D;
 import java.awt.geom.Point2D.Double;
 
-public class PointDescriptor extends Rectangle {
+public class PointDescriptor extends Rectangle implements Comparable<PointDescriptor>{
 	private String description;
 	
 	public PointDescriptor(Point2D.Double botleft, double width, double height) {
@@ -23,4 +23,11 @@ public class PointDescriptor extends Rectangle {
 		this.description = description;
 	}
 
+	@Override
+	public int compareTo(PointDescriptor arg0) {
+		double diff = this.getBotleft().y - arg0.getBotleft().y;
+		return (int) Math.signum(diff);
+	}
+
+	
 }
