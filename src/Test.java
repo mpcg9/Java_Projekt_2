@@ -14,7 +14,7 @@ public class Test {
 		p.add(new PointDescriptor(40, 20, 50, 8));
 		
 		PointDescriptorSet pSet = new PointDescriptorSet(p);
-		TreeSet<PointDescriptor> p2 = pSet.getPoints();
+		List<PointDescriptor> p2 = pSet.getPoints();
 		
 		for(PointDescriptor point : p2) System.out.println("("+point.getBotleft().x+"|"+point.getBotleft().y+")");
 		
