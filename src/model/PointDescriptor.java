@@ -10,8 +10,8 @@ public class PointDescriptor extends Rectangle implements Comparable<PointDescri
 		super(botleft, width, height);
 	}
 
-	public PointDescriptor(double topY, double leftX, double width, double height) {
-		super(topY, leftX, width, height);
+	public PointDescriptor(double bottomY, double leftX, double width, double height) {
+		super(bottomY, leftX, width, height);
 	}
 	
 	public PointDescriptor(String description, Point2D.Double descriptionPoint){

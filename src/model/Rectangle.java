@@ -30,8 +30,8 @@ public class Rectangle {
 	 * @param width The width of the rectangle.
 	 * @param height The height of the rectangle.
 	 */
-	public Rectangle(double topY, double leftX, double width, double height){
-		this.setBotleft(new Point2D.Double(leftX, topY));
+	public Rectangle(double bottomY, double leftX, double width, double height){
+		this.setBotleft(new Point2D.Double(leftX, bottomY));
 		this.setWidth(width);
 		this.setHeight(height);
 	}
