@@ -8,7 +8,7 @@ import java.io.*;
 
 public class recttosvg {
 	
-	public recttosvg(LinkedList<Rectangle> Rechtecke){
+	public static void saveSVG(Collection<? extends Rectangle> Rechtecke){
 		
 		Element svg = new Element("svg");
 		Document svgdoc = new Document(svg);
@@ -27,7 +27,7 @@ public class recttosvg {
 			
 			String randColour = "#" + Integer.toHexString(randR) + Integer.toHexString(randG) + Integer.toHexString(randB);
 			
-			Element curr = new Element("Rectangle", n);
+			Element curr = new Element("rect", n);
 			
 			curr.setAttribute("x", String.valueOf(r.getBotleft().getX()));
 			curr.setAttribute("y", String.valueOf(r.getBotleft().getY()));
@@ -45,6 +45,7 @@ public class recttosvg {
 		try{
 			FileWriter fw = new FileWriter(filename, false);
 			out.output(svgdoc, fw);
+			System.out.println("File saved");
 		}catch(IOException e){
 			System.out.println("Fehler: IOException!");
 		}catch(Exception e){

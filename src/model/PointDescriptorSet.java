@@ -9,10 +9,18 @@ public class PointDescriptorSet {
 		this.points = new TreeSet<PointDescriptor>(points);
 	}
 	
-	//TODO: implement sweep-line  collision detection algorithm.
+	public void findCollisionsSweepLine(){
+		
+		//TODO: implement sweep-line  collision detection algorithm.
+	}
+	
 	//TODO: implement brute-force collision detection algorithm.
 	
 	//TODO: implement minimum scale factor finding algorithm (see below).
+	
+	private class EventPoint{
+		
+	}
 	
 	private class PointDescriptorPair{
 		private PointDescriptor point1;
@@ -32,5 +40,13 @@ public class PointDescriptorSet {
 		}
 		
 		//TODO: implement minimum scale factor finding method.
+	}
+
+	public TreeSet<PointDescriptor> getPoints() {
+		return points;
+	}
+
+	public void setPoints(TreeSet<PointDescriptor> points) {
+		this.points = points;
 	}
 }
