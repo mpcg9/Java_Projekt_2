@@ -1,8 +1,6 @@
 package model;
 import java.util.*;
 
-import org.apache.bcel.generic.PopInstruction;
-
 public class PointDescriptorSet {
 	private List<PointDescriptor> points;
 	private List<PointDescriptorPair> collisions;
