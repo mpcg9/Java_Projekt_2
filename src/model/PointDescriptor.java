@@ -6,6 +6,10 @@ import java.awt.geom.Point2D.Double;
 public class PointDescriptor extends Rectangle implements Comparable<PointDescriptor>{
 	private String description;
 	
+	public PointDescriptor() {
+		super();
+	}
+	
 	public PointDescriptor(Point2D.Double botleft, double width, double height) {
 		super(botleft, width, height);
 	}
@@ -27,6 +31,14 @@ public class PointDescriptor extends Rectangle implements Comparable<PointDescri
 	public int compareTo(PointDescriptor arg0) {
 		double diff = this.getBotleft().y - arg0.getBotleft().y;
 		return (int) Math.signum(diff);
+	}
+
+	public String getDescription() {
+		return description;
+	}
+
+	public void setDescription(String description) {
+		this.description = description;
 	}
 
 	
