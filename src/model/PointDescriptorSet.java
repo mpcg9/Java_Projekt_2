@@ -76,6 +76,8 @@ public class PointDescriptorSet implements Iterable<PointDescriptor>{
 				e.printStackTrace();
 			}
 		}
+		
+//		System.out.println(this.collisions.size() + " Kollisionen gefunden");
 	}
 	
 	public double findMinimumScaleFactor(){
@@ -194,7 +196,7 @@ public class PointDescriptorSet implements Iterable<PointDescriptor>{
 			LOCK.unlock();
 			
 			while(i < points.length){
-				System.out.println(i);
+//				System.out.println(i);
 				for(int j = i+1; j < points.length; j++){
 					if(points[i].collidesWith(points[j])){
 						LOCK.lock();

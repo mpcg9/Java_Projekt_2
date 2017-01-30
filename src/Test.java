@@ -34,7 +34,7 @@ public class Test {
 		recttosvg.saveSVG(points.getScaledPoints(minScale), "RechteckeSkaliertSchweiz.svg");
 		
 		// this takes a f***ing eternity to execute. Uncomment for demonstration purposes!
-//		RuntimeTester.createRuntimeAnalysis("Runtime_Analysis.csv", 1000, 5000, 100000);
+		RuntimeTester.createRuntimeAnalysis("Runtime_Analysis.csv", 5000, 1000, 30000);
 		System.out.println("finished execution");
 		
 //		for(PointDescriptor point : points) System.out.println("("+point.getBotleft().x+"|"+point.getBotleft().y+")");
