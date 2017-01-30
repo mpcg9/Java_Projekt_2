@@ -124,7 +124,7 @@ public class PointDescriptorSet implements Iterable<PointDescriptor>{
 				y1 = point1.getBotleft().y;
 				y2 = point2.getBotleft().y;
 			}
-			else if(point1.getBotleft().y != point1.getBotleft().y){
+			else if(point1.getBotleft().y > point2.getBotleft().y){
 				height = point2.getHeight();
 				y1 = point2.getBotleft().y;
 				y2 = point1.getBotleft().y;
@@ -140,7 +140,7 @@ public class PointDescriptorSet implements Iterable<PointDescriptor>{
 				x1 = point1.getBotleft().x;
 				x2 = point2.getBotleft().x;
 			}
-			else if(point1.getBotleft().x != point1.getBotleft().x){
+			else if(point1.getBotleft().x > point2.getBotleft().x){
 				length = point2.getWidth();
 				x1 = point2.getBotleft().x;
 				x2 = point1.getBotleft().x;
