@@ -30,10 +30,10 @@ public class recttosvg {
 			
 			Element curr = new Element("rect", n);
 			
-			curr.setAttribute("x", String.valueOf( r.getBotleft().getX()));
-			curr.setAttribute("y", String.valueOf( r.getBotleft().getY()));
-			curr.setAttribute("height", String.valueOf( r.getHeight()));
-			curr.setAttribute("width", String.valueOf( r.getWidth()));
+			curr.setAttribute("x", String.valueOf(Math.round( r.getBotleft().getX())));
+			curr.setAttribute("y", String.valueOf(Math.round( r.getBotleft().getY())));
+			curr.setAttribute("height", String.valueOf(Math.round( r.getHeight())));
+			curr.setAttribute("width", String.valueOf(Math.round( r.getWidth())));
 			curr.setAttribute("stroke", "#000000");
 			curr.setAttribute("fill", randColour);
 			
@@ -67,7 +67,7 @@ public class recttosvg {
 			if(r.getBotleft().x + r.getWidth() > xMax) xMax = r.getBotleft().x + r.getWidth();
 		}
 		
-		return xMin + " " + yMin + " " + (xMax - xMin) + " " + (yMax - yMin);
+		return Math.round(xMin) + " " + Math.round(yMin) + " " + Math.round(xMax - xMin) + " " + Math.round(yMax - yMin);
 	}
 
 }
