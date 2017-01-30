@@ -53,9 +53,7 @@ public class PointDescriptorSet {
 		
 	}
 	
-	//TODO: implement brute-force collision detection algorithm.
-	
-	//TODO: implement minimum scale factor finding algorithm (see below).
+	// TODO: implement scale factor finding algorithm
 	
 	private class EventPoint implements Comparable<EventPoint>{
 		public boolean isStartPoint;
@@ -70,7 +68,9 @@ public class PointDescriptorSet {
 
 		@Override
 		public int compareTo(EventPoint o) {
-			return this.point.compareTo(o.point);
+			if(this.y > o.y) return  1;
+			if(o.y > this.y) return -1;
+			return 0;
 		}
 		
 	}
