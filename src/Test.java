@@ -28,7 +28,7 @@ public class Test {
 		for(PointDescriptor point : points) System.out.println("("+point.getBotleft().x+"|"+point.getBotleft().y+")");
 		
 		recttosvg.saveSVG(points, "Rechtecke.svg");
-		
+		recttosvg.saveSVG(points.getScaledPoints(minScale), "RechteckeSkaliert.svg");
 		}
 
 }
