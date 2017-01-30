@@ -8,7 +8,7 @@ import java.io.*;
 
 public class recttosvg {
 	
-	public static void saveSVG(Collection<? extends Rectangle> Rechtecke){
+	public static void saveSVG(Iterable<? extends Rectangle> Rechtecke, String filename){
 		
 		Element svg = new Element("svg");
 		Document svgdoc = new Document(svg);
@@ -20,7 +20,7 @@ public class recttosvg {
 		
 		Random rand = new Random();
 		
-		for (Rectangle r:Rechtecke){
+		for (Rectangle r : Rechtecke){
 			int randR = rand.nextInt(0x90) + 0x35;
 			int randG = rand.nextInt(0x90) + 0x35;
 			int randB = rand.nextInt(0x90) + 0x35;
@@ -40,7 +40,6 @@ public class recttosvg {
 		}
 		
 		XMLOutputter out = new XMLOutputter(Format.getPrettyFormat());
-		String filename = "Rechtecke.svg";
 		
 		try{
 			FileWriter fw = new FileWriter(filename, false);

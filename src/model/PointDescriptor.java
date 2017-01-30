@@ -27,6 +27,22 @@ public class PointDescriptor extends Rectangle implements Comparable<PointDescri
 		this.description = description;
 	}
 
+	/**
+	 * Returns a copy of the specified PointDescriptor p.
+	 * @param p
+	 */
+	public PointDescriptor(PointDescriptor p) {
+		this.setBotleft(p.getBotleft());
+		this.setDescription(p.getDescription());
+		this.setHeight(p.getHeight());
+		this.setWidth(p.getWidth());
+	}
+
+	public PointDescriptor(String description, double y, double x, double width, double height) {
+		super(y, x, width, height);
+		this.setDescription(description);
+	}
+
 	@Override
 	public int compareTo(PointDescriptor arg0) {
 		double diff = this.getBotleft().y - arg0.getBotleft().y;

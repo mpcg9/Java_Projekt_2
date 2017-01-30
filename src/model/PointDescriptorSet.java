@@ -1,7 +1,7 @@
 package model;
 import java.util.*;
 
-public class PointDescriptorSet {
+public class PointDescriptorSet implements Iterable<PointDescriptor>{
 	private List<PointDescriptor> points;
 	private List<PointDescriptorPair> collisions;
 	
@@ -59,6 +59,16 @@ public class PointDescriptorSet {
 			if(pScale > minScaleFactor) minScaleFactor = pScale;
 		}
 		return minScaleFactor;
+	}
+	
+	public List<PointDescriptor> getScaledPoints(double scaleFactor){
+		LinkedList<PointDescriptor> list = new LinkedList<PointDescriptor>();
+		for(PointDescriptor p : this.points){
+			PointDescriptor pNeu = new PointDescriptor(p);
+			pNeu.getBotleft().x *= scaleFactor;
+			pNeu.getBotleft().y *= scaleFactor;
+		}
+		return list;
 	}
 	
 	private class EventPoint implements Comparable<EventPoint>{
@@ -141,5 +151,10 @@ public class PointDescriptorSet {
 
 	public void setPoints(List<PointDescriptor> points) {
 		this.points = points;
+	}
+
+	@Override
+	public Iterator<PointDescriptor> iterator() {
+		return this.points.iterator();
 	}
 }
