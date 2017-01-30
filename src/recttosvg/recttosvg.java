@@ -17,6 +17,7 @@ public class recttosvg {
 		
 		svg.setNamespace(n);
 		svg.addNamespaceDeclaration(nd);
+		svg.setAttribute("viewBox", getViewBoxSize(Rechtecke));
 		
 		Random rand = new Random();
 		
@@ -29,10 +30,10 @@ public class recttosvg {
 			
 			Element curr = new Element("rect", n);
 			
-			curr.setAttribute("x", String.valueOf((int) r.getBotleft().getX()));
-			curr.setAttribute("y", String.valueOf((int)r.getBotleft().getY()));
-			curr.setAttribute("height", String.valueOf((int) r.getHeight()));
-			curr.setAttribute("width", String.valueOf((int) r.getWidth()));
+			curr.setAttribute("x", String.valueOf( r.getBotleft().getX()));
+			curr.setAttribute("y", String.valueOf( r.getBotleft().getY()));
+			curr.setAttribute("height", String.valueOf( r.getHeight()));
+			curr.setAttribute("width", String.valueOf( r.getWidth()));
 			curr.setAttribute("stroke", "#000000");
 			curr.setAttribute("fill", randColour);
 			
@@ -51,6 +52,22 @@ public class recttosvg {
 			System.out.println("Fehler: Exception!");
 		}
 		
+	}
+	
+	public static String getViewBoxSize(Iterable<? extends Rectangle> rechtecke){
+		double yMin = Double.MAX_VALUE;
+		double yMax = Double.MIN_VALUE;
+		double xMin = Double.MAX_VALUE;
+		double xMax = Double.MIN_VALUE;
+		
+		for(Rectangle r : rechtecke){
+			if(r.getBotleft().y < yMin) yMin = r.getBotleft().y;
+			if(r.getBotleft().y + r.getHeight() > yMax) yMax = r.getBotleft().y + r.getHeight();
+			if(r.getBotleft().x < xMin) xMin = r.getBotleft().x;
+			if(r.getBotleft().x + r.getWidth() > xMax) xMax = r.getBotleft().x + r.getWidth();
+		}
+		
+		return xMin + " " + yMin + " " + (xMax - xMin) + " " + (yMax - yMin);
 	}
 
 }
