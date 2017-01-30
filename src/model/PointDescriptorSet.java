@@ -67,6 +67,7 @@ public class PointDescriptorSet implements Iterable<PointDescriptor>{
 			PointDescriptor pNeu = new PointDescriptor(p);
 			pNeu.getBotleft().x *= scaleFactor;
 			pNeu.getBotleft().y *= scaleFactor;
+			list.add(pNeu);
 		}
 		return list;
 	}
