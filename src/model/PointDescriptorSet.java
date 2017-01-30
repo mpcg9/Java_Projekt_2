@@ -29,14 +29,14 @@ public class PointDescriptorSet implements Iterable<PointDescriptor>{
 				for(PointDescriptor p : statusCrowd){
 					if(e.point.collidesWith(p)){
 						this.collisions.add(new PointDescriptorPair(p, e.point));
-						System.out.println(e.point.getDescription() + ", " + p.getDescription() + ", " + new PointDescriptorPair(p, e.point).getMinimumScaleFactor());
+//						System.out.println(e.point.getDescription() + ", " + p.getDescription() + ", " + new PointDescriptorPair(p, e.point).getMinimumScaleFactor());
 					}
 				}
 				statusCrowd.add(e.point);
 			}
 			else statusCrowd.remove(e.point);
 		}
-		System.out.println(this.collisions.size() + " Kollisionen gefunden");
+//		System.out.println(this.collisions.size() + " Kollisionen gefunden");
 	}
 	
 	public void findCollisionsBruteForce(){
@@ -47,12 +47,12 @@ public class PointDescriptorSet implements Iterable<PointDescriptor>{
 			for(int j = i + 1; j < pointArray.length; j++){
 				if(p.collidesWith(pointArray[j])){
 					this.collisions.add(new PointDescriptorPair(p, pointArray[j]));
-					System.out.println(p.getDescription() + ", " + pointArray[j].getDescription() + ", " + new PointDescriptorPair(p, pointArray[j]).getMinimumScaleFactor());
+//					System.out.println(p.getDescription() + ", " + pointArray[j].getDescription() + ", " + new PointDescriptorPair(p, pointArray[j]).getMinimumScaleFactor());
 				}
 			}
 		}
 		
-		System.out.println(this.collisions.size() + " Kollisionen gefunden");
+//		System.out.println(this.collisions.size() + " Kollisionen gefunden");
 	}
 	
 	public double findMinimumScaleFactor(){

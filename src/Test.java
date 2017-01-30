@@ -21,7 +21,7 @@ public class Test {
 //	}
 	
 	public static void main(String[] args){
-		PointDescriptorSet points = new PointDescriptorSet(CsvReader.readFile("auswahl_schweiz.csv"));
+		PointDescriptorSet points = new PointDescriptorSet(CsvReader.readFile("auswahl_benelux.csv"));
 		
 		points.findCollisionsSweepLine();
 		System.out.println(points.findMinimumScaleFactor());
