@@ -30,7 +30,7 @@ public class CsvReader {
 					double y = Double.parseDouble(args[2]);
 					double height = Double.parseDouble(args[3]);
 					double width = Double.parseDouble(args[4]);
-					list.add(new PointDescriptor(y, x, width, height));
+					list.add(new PointDescriptor(args[0], y, x, width, height));
 				} catch (NumberFormatException e) {
 					continue nextLine;
 				}
