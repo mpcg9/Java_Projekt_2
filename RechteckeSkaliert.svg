@@ -1,2 +1,45 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" />
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <rect x="5452443" y="48415161" height="32421" width="90000" stroke="#000000" fill="#717e85" />
+  <rect x="5290663" y="50482852" height="32421" width="62000" stroke="#000000" fill="#696043" />
+  <rect x="6156157" y="49118646" height="32421" width="86000" stroke="#000000" fill="#8c75b8" />
+  <rect x="2482405" y="47416895" height="32421" width="44000" stroke="#000000" fill="#8a8aad" />
+  <rect x="6139939" y="47034615" height="32421" width="84000" stroke="#000000" fill="#8e5336" />
+  <rect x="4441387" y="48415161" height="32421" width="104000" stroke="#000000" fill="#ad9b8f" />
+  <rect x="5792137" y="48182760" height="32421" width="106000" stroke="#000000" fill="#50508f" />
+  <rect x="5719366" y="47504161" height="32421" width="54000" stroke="#000000" fill="#9565be" />
+  <rect x="4980632" y="46446937" height="32421" width="84000" stroke="#000000" fill="#b59040" />
+  <rect x="4134045" y="49289059" height="32421" width="76000" stroke="#000000" fill="#3f7255" />
+  <rect x="4506091" y="47389014" height="32421" width="52000" stroke="#000000" fill="#4dbb87" />
+  <rect x="3562219" y="48147082" height="32421" width="112000" stroke="#000000" fill="#b43990" />
+  <rect x="3967954" y="49620410" height="32421" width="114000" stroke="#000000" fill="#a6bab5" />
+  <rect x="3737673" y="49658090" height="32421" width="82000" stroke="#000000" fill="#ae8280" />
+  <rect x="3446465" y="49262392" height="32421" width="106000" stroke="#000000" fill="#7aa25f" />
+  <rect x="4697536" y="46197101" height="32421" width="58000" stroke="#000000" fill="#45a6bd" />
+  <rect x="2985474" y="47899878" height="32421" width="50000" stroke="#000000" fill="#78c384" />
+  <rect x="3614759" y="49055179" height="32421" width="104000" stroke="#000000" fill="#915f50" />
+  <rect x="4924252" y="49848163" height="32421" width="70000" stroke="#000000" fill="#3ab76f" />
+  <rect x="6018641" y="48544689" height="32421" width="102000" stroke="#000000" fill="#a37c40" />
+  <rect x="2244016" y="46949785" height="32421" width="56000" stroke="#000000" fill="#ad40ad" />
+  <rect x="4783515" y="49141687" height="32421" width="80000" stroke="#000000" fill="#663da2" />
+  <rect x="5630378" y="45659827" height="32421" width="118000" stroke="#000000" fill="#565eb1" />
+  <rect x="2912659" y="48508428" height="32421" width="114000" stroke="#000000" fill="#b4af4d" />
+  <rect x="3496136" y="47650622" height="32421" width="84000" stroke="#000000" fill="#3c8c3b" />
+  <rect x="3931826" y="47186397" height="32421" width="68000" stroke="#000000" fill="#743535" />
+  <rect x="4991409" y="45499360" height="32421" width="56000" stroke="#000000" fill="#403967" />
+  <rect x="5476686" y="48144576" height="32421" width="108000" stroke="#000000" fill="#a853b3" />
+  <rect x="4584542" y="47673278" height="32421" width="108000" stroke="#000000" fill="#355682" />
+  <rect x="3178772" y="47155489" height="32421" width="60000" stroke="#000000" fill="#824b35" />
+  <rect x="4293082" y="48743916" height="32421" width="168000" stroke="#000000" fill="#9b485f" />
+  <rect x="4950949" y="46107857" height="32421" width="120000" stroke="#000000" fill="#b48b68" />
+  <rect x="5314927" y="50779118" height="32421" width="102000" stroke="#000000" fill="#a7bcc0" />
+  <rect x="2605319" y="48144576" height="32421" width="68000" stroke="#000000" fill="#7a9475" />
+  <rect x="5668080" y="48441077" height="32421" width="58000" stroke="#000000" fill="#8f38ab" />
+  <rect x="3252355" y="45659827" height="32421" width="62000" stroke="#000000" fill="#42a268" />
+  <rect x="4670566" y="50819525" height="32421" width="118000" stroke="#000000" fill="#74aa59" />
+  <rect x="5612628" y="47774248" height="32421" width="80000" stroke="#000000" fill="#656c54" />
+  <rect x="5829880" y="50976579" height="32421" width="68000" stroke="#000000" fill="#916c55" />
+  <rect x="3592090" y="47123067" height="32421" width="90000" stroke="#000000" fill="#7e6261" />
+  <rect x="5115385" y="46217916" height="32421" width="140000" stroke="#000000" fill="#7e3a43" />
+  <rect x="4428431" y="47815289" height="32421" width="74000" stroke="#000000" fill="#7c5d36" />
+</svg>

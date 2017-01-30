@@ -29,10 +29,10 @@ public class recttosvg {
 			
 			Element curr = new Element("rect", n);
 			
-			curr.setAttribute("x", String.valueOf(r.getBotleft().getX()));
-			curr.setAttribute("y", String.valueOf(r.getBotleft().getY()));
-			curr.setAttribute("height", String.valueOf(r.getHeight()));
-			curr.setAttribute("width", String.valueOf(r.getWidth()));
+			curr.setAttribute("x", String.valueOf((int) r.getBotleft().getX()));
+			curr.setAttribute("y", String.valueOf((int)r.getBotleft().getY()));
+			curr.setAttribute("height", String.valueOf((int) r.getHeight()));
+			curr.setAttribute("width", String.valueOf((int) r.getWidth()));
 			curr.setAttribute("stroke", "#000000");
 			curr.setAttribute("fill", randColour);
 			
