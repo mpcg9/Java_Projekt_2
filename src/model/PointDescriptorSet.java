@@ -51,7 +51,15 @@ public class PointDescriptorSet {
 		
 	}
 	
-	// TODO: implement scale factor finding algorithm
+	public double findMinimumScaleFactor(){
+		if(this.collisions == null) this.findCollisionsSweepLine();
+		double minScaleFactor = Double.MIN_VALUE;
+		for(PointDescriptorPair p : this.collisions){
+			double pScale = p.getMinimumScaleFactor();
+			if(pScale > minScaleFactor) minScaleFactor = pScale;
+		}
+		return minScaleFactor;
+	}
 	
 	private class EventPoint implements Comparable<EventPoint>{
 		public boolean isStartPoint;
@@ -90,7 +98,41 @@ public class PointDescriptorSet {
 			return point2;
 		}
 		
-		//TODO: implement minimum scale factor finding method.
+		public double getMinimumScaleFactor(){
+			return Math.min(getMinimumScaleFactorX(), getMinimumScaleFactorY());
+		}
+		
+		private double getMinimumScaleFactorY(){
+			double height, y1, y2;
+			if(point1.getBotleft().y < point2.getBotleft().y){
+				height = point1.getHeight();
+				y1 = point1.getBotleft().y;
+				y2 = point2.getBotleft().y;
+			}
+			else if(point1.getBotleft().y != point1.getBotleft().y){
+				height = point2.getHeight();
+				y1 = point2.getBotleft().y;
+				y2 = point1.getBotleft().y;
+			}
+			else return Double.MAX_VALUE;
+			return height/(y2-y1);
+		}
+		
+		private double getMinimumScaleFactorX(){
+			double length, x1, x2;
+			if(point1.getBotleft().x < point2.getBotleft().x){
+				length = point1.getWidth();
+				x1 = point1.getBotleft().x;
+				x2 = point2.getBotleft().x;
+			}
+			else if(point1.getBotleft().x != point1.getBotleft().x){
+				length = point2.getWidth();
+				x1 = point2.getBotleft().x;
+				x2 = point1.getBotleft().x;
+			}
+			else return Double.MAX_VALUE;
+			return length/(x2-x1);
+		}
 	}
 
 	public List<PointDescriptor> getPoints() {
