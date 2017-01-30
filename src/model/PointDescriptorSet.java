@@ -1,9 +1,13 @@
 package model;
 import java.util.*;
+import java.util.concurrent.locks.Lock;
+import java.util.concurrent.locks.ReentrantLock;
 
 public class PointDescriptorSet implements Iterable<PointDescriptor>{
 	private List<PointDescriptor> points;
 	private List<PointDescriptorPair> collisions;
+	
+	private static final Lock LOCK = new ReentrantLock();
 	
 	public PointDescriptorSet(Collection<PointDescriptor> points){
 		this.points = new LinkedList<PointDescriptor>(points);
@@ -51,8 +55,27 @@ public class PointDescriptorSet implements Iterable<PointDescriptor>{
 				}
 			}
 		}
-		
 //		System.out.println(this.collisions.size() + " Kollisionen gefunden");
+	}
+	
+	public void findCollisionsBruteForceMultithreaded(){
+		int[] currentIndex = {0}; // Implementation als Array, da so Referenzen übergeben werden.
+		this.collisions = new LinkedList<PointDescriptorPair>();
+		PointDescriptor[] pointArray = this.points.toArray(new PointDescriptor[this.points.size()]);
+		
+		Thread[] t = new Thread[Runtime.getRuntime().availableProcessors()];
+		for(int i = 0; i < t.length; i++){
+			CollisionSearcher c = new CollisionSearcher(currentIndex, collisions, pointArray);
+			t[i] = new Thread(c);
+			t[i].start();
+		}
+		for(Thread tx : t){
+			try {
+				tx.join();
+			} catch (InterruptedException e) {
+				e.printStackTrace();
+			}
+		}
 	}
 	
 	public double findMinimumScaleFactor(){
@@ -150,6 +173,44 @@ public class PointDescriptorSet implements Iterable<PointDescriptor>{
 		}
 	}
 
+	private class CollisionSearcher implements Runnable{
+		private int[] currentIndex;
+		private List<PointDescriptorPair> resultList;
+		private PointDescriptor[] points;
+		
+		public CollisionSearcher(int[] index, List<PointDescriptorPair> collisions, PointDescriptor[] points){
+			this.currentIndex = index;
+			this.points = points;
+			this.resultList = collisions;
+		}
+		
+		@Override
+		public void run() {
+			int i;
+			
+			LOCK.lock();
+			i = currentIndex[0];
+			currentIndex[0] ++ ;
+			LOCK.unlock();
+			
+			while(i < points.length){
+				System.out.println(i);
+				for(int j = i+1; j < points.length; j++){
+					if(points[i].collidesWith(points[j])){
+						LOCK.lock();
+						this.resultList.add(new PointDescriptorPair(points[i], points[j]));
+						LOCK.unlock();
+					}
+				}
+				LOCK.lock();
+				i = currentIndex[0];
+				currentIndex[0] ++ ;
+				LOCK.unlock();
+			}
+		}
+		
+	}
+	
 	public List<PointDescriptor> getPoints() {
 		return points;
 	}
