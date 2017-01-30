@@ -21,11 +21,16 @@ public class Test {
 //	}
 	
 	public static void main(String[] args){
-		PointDescriptorSet points = new PointDescriptorSet(CsvReader.readFile("auswahl_benelux.csv"));
+		PointDescriptorSet points = new PointDescriptorSet(CsvReader.readFile("auswahl_schweiz.csv"));
 		
 		points.findCollisionsSweepLine();
+		System.out.println(points.findMinimumScaleFactor());
+		
+		points.findCollisionsBruteForce();
 		double minScale = points.findMinimumScaleFactor();
-		for(PointDescriptor point : points) System.out.println("("+point.getBotleft().x+"|"+point.getBotleft().y+")");
+//		for(PointDescriptor point : points) System.out.println("("+point.getBotleft().x+"|"+point.getBotleft().y+")");
+		
+		System.out.println(minScale);
 		
 		recttosvg.saveSVG(points, "Rechtecke.svg");
 		recttosvg.saveSVG(points.getScaledPoints(minScale), "RechteckeSkaliert.svg");
