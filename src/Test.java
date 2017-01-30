@@ -23,10 +23,19 @@ public class Test {
 	public static void main(String[] args){
 		PointDescriptorSet points = new PointDescriptorSet(CsvReader.readFile("auswahl_benelux.csv"));
 		
-		points.findCollisionsSweepLine();
-		System.out.println(points.findMinimumScaleFactor());
+		double timeElapsed;
+		double startTime;
 		
+		startTime = System.currentTimeMillis();
+		points.findCollisionsSweepLine();
+		timeElapsed = System.currentTimeMillis() - startTime;
+		System.out.println("Sweep-Line-Algortihmus: Rechendauer " + timeElapsed + "ms");
+		
+		startTime = System.currentTimeMillis();
 		points.findCollisionsBruteForce();
+		timeElapsed = System.currentTimeMillis() - startTime;
+		System.out.println("Brute-Force-Algortihmus: Rechendauer " + timeElapsed + "ms");
+		
 		double minScale = points.findMinimumScaleFactor();
 //		for(PointDescriptor point : points) System.out.println("("+point.getBotleft().x+"|"+point.getBotleft().y+")");
 		
