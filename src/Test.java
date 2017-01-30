@@ -22,27 +22,25 @@ public class Test {
 	
 	public static void main(String[] args){
 		PointDescriptorSet points = new PointDescriptorSet(CsvReader.readFile("auswahl_benelux.csv"));
-		
-		double timeElapsed;
-		double startTime;
-		
-		startTime = System.currentTimeMillis();
-		points.findCollisionsSweepLine();
-		timeElapsed = System.currentTimeMillis() - startTime;
-		System.out.println("Sweep-Line-Algortihmus: Rechendauer " + timeElapsed + "ms");
-		
-		startTime = System.currentTimeMillis();
-		points.findCollisionsBruteForce();
-		timeElapsed = System.currentTimeMillis() - startTime;
-		System.out.println("Brute-Force-Algortihmus: Rechendauer " + timeElapsed + "ms");
-		
 		double minScale = points.findMinimumScaleFactor();
+		System.out.println("Minimaler Zoomfaktor Benelux: " + minScale);
+		recttosvg.saveSVG(points, "RechteckeBenelux.svg");
+		recttosvg.saveSVG(points.getScaledPoints(minScale), "RechteckeSkaliertBenelux.svg");
+		
+		points = new PointDescriptorSet(CsvReader.readFile("auswahl_schweiz.csv"));
+		minScale = points.findMinimumScaleFactor();
+		System.out.println("Minimaler Zoomfaktor Schweiz: " + minScale);
+		recttosvg.saveSVG(points, "RechteckeSchweiz.svg");
+		recttosvg.saveSVG(points.getScaledPoints(minScale), "RechteckeSkaliertSchweiz.svg");
+		
+		// this takes a f***ing eternity to execute. Uncomment for demonstration purposes!
+		RuntimeTester.createRuntimeAnalysis("Runtime_Analysis.csv", 1000, 5000, 100000);
+		System.out.println("finished execution");
+		
 //		for(PointDescriptor point : points) System.out.println("("+point.getBotleft().x+"|"+point.getBotleft().y+")");
 		
-		System.out.println(minScale);
 		
-		recttosvg.saveSVG(points, "Rechtecke.svg");
-		recttosvg.saveSVG(points.getScaledPoints(minScale), "RechteckeSkaliert.svg");
+
 		}
 
 }
