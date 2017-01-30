@@ -1,8 +1,45 @@
-
+<?xml version="1.0" encoding="UTF-8"?>
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-  <rect x="3" y="15" height="8" width="50" stroke="#000000" fill="#899fbb" />
-  <rect x="5" y="20" height="8" width="50" stroke="#000000" fill="#653862" />
-  <rect x="15" y="25" height="8" width="50" stroke="#000000" fill="#37a194" />
-  <rect x="7" y="35" height="8" width="50" stroke="#000000" fill="#b86359" />
-  <rect x="20" y="40" height="8" width="50" stroke="#000000" fill="#51ae4e" />
+  <rect x="750408.4153" y="6663277.647" height="32421.875" width="90000.0" stroke="#000000" fill="#b33db9" />
+  <rect x="728142.9524" y="6947849.586" height="32421.875" width="62000.0" stroke="#000000" fill="#5b8d39" />
+  <rect x="847259.0901" y="6760096.795" height="32421.875" width="86000.0" stroke="#000000" fill="#9e7e3a" />
+  <rect x="341648.3209" y="6525888.316" height="32421.875" width="44000.0" stroke="#000000" fill="#7e6d74" />
+  <rect x="845027.0835" y="6473276.034" height="32421.875" width="84000.0" stroke="#000000" fill="#7cbe9a" />
+  <rect x="611258.9159" y="6663277.647" height="32421.875" width="104000.0" stroke="#000000" fill="#538578" />
+  <rect x="797159.7478" y="6631292.753" height="32421.875" width="106000.0" stroke="#000000" fill="#706e57" />
+  <rect x="787144.4814" y="6537898.628" height="32421.875" width="54000.0" stroke="#000000" fill="#ad3853" />
+  <rect x="685474.077" y="6392395.056" height="32421.875" width="84000.0" stroke="#000000" fill="#8790b2" />
+  <rect x="568960.0913" y="6783550.473" height="32421.875" width="76000.0" stroke="#000000" fill="#904db6" />
+  <rect x="620163.9316" y="6522051.232" height="32421.875" width="52000.0" stroke="#000000" fill="#6eb63b" />
+  <rect x="490260.8376" y="6626382.483" height="32421.875" width="112000.0" stroke="#000000" fill="#ac6a46" />
+  <rect x="546101.2688" y="6829153.495" height="32421.875" width="114000.0" stroke="#000000" fill="#68a858" />
+  <rect x="514408.2412" y="6834339.409" height="32421.875" width="82000.0" stroke="#000000" fill="#488778" />
+  <rect x="474329.9179" y="6779880.295" height="32421.875" width="106000.0" stroke="#000000" fill="#4a4b39" />
+  <rect x="646512.1346" y="6358010.652" height="32421.875" width="58000.0" stroke="#000000" fill="#67ad57" />
+  <rect x="410884.5572" y="6592360.39" height="32421.875" width="50000.0" stroke="#000000" fill="#4b5eaf" />
+  <rect x="497491.8484" y="6751362.014" height="32421.875" width="104000.0" stroke="#000000" fill="#9d8d87" />
+  <rect x="677714.5489" y="6860498.663" height="32421.875" width="70000.0" stroke="#000000" fill="#afa0c1" />
+  <rect x="828333.0554" y="6681104.341" height="32421.875" width="102000.0" stroke="#000000" fill="#9ca04d" />
+  <rect x="308839.29" y="6461600.959" height="32421.875" width="56000.0" stroke="#000000" fill="#7caea9" />
+  <rect x="658345.2953" y="6763267.842" height="32421.875" width="80000.0" stroke="#000000" fill="#359c72" />
+  <rect x="774897.2085" y="6284066.73" height="32421.875" width="118000.0" stroke="#000000" fill="#8c3b76" />
+  <rect x="400863.3106" y="6676113.793" height="32421.875" width="114000.0" stroke="#000000" fill="#556149" />
+  <rect x="481165.9863" y="6558055.769" height="32421.875" width="84000.0" stroke="#000000" fill="#5bc18e" />
+  <rect x="541129.0409" y="6494165.424" height="32421.875" width="68000.0" stroke="#000000" fill="#5d8657" />
+  <rect x="686957.3021" y="6261982.05" height="32421.875" width="56000.0" stroke="#000000" fill="#554135" />
+  <rect x="753744.9199" y="6626037.542" height="32421.875" width="108000.0" stroke="#000000" fill="#9c3a68" />
+  <rect x="630961.0249" y="6561173.862" height="32421.875" width="108000.0" stroke="#000000" fill="#b1a16f" />
+  <rect x="437487.8706" y="6489911.578" height="32421.875" width="60000.0" stroke="#000000" fill="#743b7a" />
+  <rect x="590847.9379" y="6708523.467" height="32421.875" width="168000.0" stroke="#000000" fill="#8f7565" />
+  <rect x="681388.791" y="6345728.171" height="32421.875" width="120000.0" stroke="#000000" fill="#40637c" />
+  <rect x="731482.3806" y="6988624.123" height="32421.875" width="102000.0" stroke="#000000" fill="#7b4164" />
+  <rect x="358564.7136" y="6626037.542" height="32421.875" width="68000.0" stroke="#000000" fill="#adac75" />
+  <rect x="780086.0484" y="6666844.448" height="32421.875" width="58000.0" stroke="#000000" fill="#ae4399" />
+  <rect x="447614.8707" y="6284066.73" height="32421.875" width="62000.0" stroke="#000000" fill="#8c5c3d" />
+  <rect x="642800.3895" y="6994185.206" height="32421.875" width="118000.0" stroke="#000000" fill="#38a366" />
+  <rect x="772454.3426" y="6575070.115" height="32421.875" width="80000.0" stroke="#000000" fill="#768566" />
+  <rect x="802354.3403" y="7015800.307" height="32421.875" width="68000.0" stroke="#000000" fill="#c45346" />
+  <rect x="494371.9558" y="6485449.423" height="32421.875" width="90000.0" stroke="#000000" fill="#5f8e35" />
+  <rect x="704019.795" y="6360875.465" height="32421.875" width="140000.0" stroke="#000000" fill="#996ca2" />
+  <rect x="609475.816" y="6580718.574" height="32421.875" width="74000.0" stroke="#000000" fill="#8e6daf" />
 </svg>
