@@ -37,7 +37,16 @@ public class recttosvg {
 			curr.setAttribute("stroke", "#000000");
 			curr.setAttribute("fill", randColour);
 			
+			Element text = new Element("text", n);
+			text.setAttribute("x", String.valueOf(Math.round( r.getBotleft().getX())));
+			text.setAttribute("y", String.valueOf(Math.round( r.getBotleft().getY())));
+			text.setAttribute("font-family", "verdana");
+			text.setAttribute("font-size", "20px");
+			text.setAttribute("font-weight", "bold");
+			text.setText("Test");
+			
 			svg.addContent(curr);
+			svg.addContent(text);
 		}
 		
 		XMLOutputter out = new XMLOutputter(Format.getPrettyFormat());
