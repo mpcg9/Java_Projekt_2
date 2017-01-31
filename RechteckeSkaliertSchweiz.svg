@@ -1,38 +1,73 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="3338494 28424526 2151894 1656678">
-  <rect x="5262526" y="29314861" height="32422" width="50000" stroke="#000000" fill="#46a64a" />
-  <rect x="3833632" y="29435433" height="32422" width="98000" stroke="#000000" fill="#a15092" />
-  <rect x="5142356" y="29748026" height="32422" width="76000" stroke="#000000" fill="#c19e7a" />
-  <rect x="5022256" y="29476789" height="32422" width="66000" stroke="#000000" fill="#97c05e" />
-  <rect x="5410388" y="29857069" height="32422" width="80000" stroke="#000000" fill="#766b58" />
-  <rect x="4050988" y="28424526" height="32422" width="60000" stroke="#000000" fill="#7a6644" />
-  <rect x="3682275" y="29057338" height="32422" width="92000" stroke="#000000" fill="#72a58a" />
-  <rect x="4790099" y="29452454" height="32422" width="80000" stroke="#000000" fill="#b787bd" />
-  <rect x="4135253" y="29368771" height="32422" width="48000" stroke="#000000" fill="#9862bf" />
-  <rect x="5045156" y="29899077" height="32422" width="104000" stroke="#000000" fill="#7d7542" />
-  <rect x="4449654" y="29753500" height="32422" width="60000" stroke="#000000" fill="#a16cbf" />
-  <rect x="4784555" y="29338291" height="32422" width="74000" stroke="#000000" fill="#913976" />
-  <rect x="4996362" y="28790288" height="32422" width="104000" stroke="#000000" fill="#3d4f67" />
-  <rect x="4781781" y="30012292" height="32422" width="128000" stroke="#000000" fill="#a43e4c" />
-  <rect x="4070382" y="30048782" height="32422" width="100000" stroke="#000000" fill="#446aae" />
-  <rect x="4700829" y="29581563" height="32422" width="40000" stroke="#000000" fill="#c0804e" />
-  <rect x="3338494" y="29623056" height="32422" width="94000" stroke="#000000" fill="#776767" />
-  <rect x="4586053" y="29477129" height="32422" width="70000" stroke="#000000" fill="#4084bc" />
-  <rect x="4734687" y="29746912" height="32422" width="66000" stroke="#000000" fill="#b28a51" />
-  <rect x="4174077" y="29608410" height="32422" width="96000" stroke="#000000" fill="#c1a975" />
-  <rect x="4565538" y="29354465" height="32422" width="66000" stroke="#000000" fill="#5e8866" />
-  <rect x="4966796" y="28633575" height="32422" width="72000" stroke="#000000" fill="#5592a2" />
-  <rect x="4643331" y="29395742" height="32422" width="54000" stroke="#000000" fill="#75b2ac" />
-  <rect x="5271752" y="29544760" height="32422" width="64000" stroke="#000000" fill="#7177b5" />
-  <rect x="4284976" y="29829499" height="32422" width="66000" stroke="#000000" fill="#957b46" />
-  <rect x="4072611" y="28823839" height="32422" width="44000" stroke="#000000" fill="#8b924e" />
-  <rect x="5029633" y="28482371" height="32422" width="60000" stroke="#000000" fill="#a379b5" />
-  <rect x="5216322" y="29707231" height="32422" width="104000" stroke="#000000" fill="#ba5b7c" />
-  <rect x="3399497" y="28800675" height="32422" width="74000" stroke="#000000" fill="#426068" />
-  <rect x="3959497" y="29274454" height="32422" width="84000" stroke="#000000" fill="#8baf85" />
-  <rect x="4203476" y="29909231" height="32422" width="54000" stroke="#000000" fill="#735ca5" />
-  <rect x="5185991" y="29780448" height="32422" width="118000" stroke="#000000" fill="#c2774f" />
-  <rect x="3386545" y="28553763" height="32422" width="78000" stroke="#000000" fill="#545c62" />
-  <rect x="4014967" y="29571473" height="32422" width="40000" stroke="#000000" fill="#7bc38b" />
-  <rect x="4067620" y="29737168" height="32422" width="96000" stroke="#000000" fill="#8543c4" />
+  <rect x="5262526" y="29314861" height="32422" width="50000" stroke="#000000" fill="#74b3c1" />
+  <text x="5262526" y="29314861" font-family="verdana" font-size="20px" font-weight="bold">Test</text>
+  <rect x="3833632" y="29435433" height="32422" width="98000" stroke="#000000" fill="#b99c9f" />
+  <text x="3833632" y="29435433" font-family="verdana" font-size="20px" font-weight="bold">Test</text>
+  <rect x="5142356" y="29748026" height="32422" width="76000" stroke="#000000" fill="#8563b7" />
+  <text x="5142356" y="29748026" font-family="verdana" font-size="20px" font-weight="bold">Test</text>
+  <rect x="5022256" y="29476789" height="32422" width="66000" stroke="#000000" fill="#894a4c" />
+  <text x="5022256" y="29476789" font-family="verdana" font-size="20px" font-weight="bold">Test</text>
+  <rect x="5410388" y="29857069" height="32422" width="80000" stroke="#000000" fill="#9da3c0" />
+  <text x="5410388" y="29857069" font-family="verdana" font-size="20px" font-weight="bold">Test</text>
+  <rect x="4050988" y="28424526" height="32422" width="60000" stroke="#000000" fill="#bc5b6c" />
+  <text x="4050988" y="28424526" font-family="verdana" font-size="20px" font-weight="bold">Test</text>
+  <rect x="3682275" y="29057338" height="32422" width="92000" stroke="#000000" fill="#84b137" />
+  <text x="3682275" y="29057338" font-family="verdana" font-size="20px" font-weight="bold">Test</text>
+  <rect x="4790099" y="29452454" height="32422" width="80000" stroke="#000000" fill="#8ab572" />
+  <text x="4790099" y="29452454" font-family="verdana" font-size="20px" font-weight="bold">Test</text>
+  <rect x="4135253" y="29368771" height="32422" width="48000" stroke="#000000" fill="#8e3684" />
+  <text x="4135253" y="29368771" font-family="verdana" font-size="20px" font-weight="bold">Test</text>
+  <rect x="5045156" y="29899077" height="32422" width="104000" stroke="#000000" fill="#913b41" />
+  <text x="5045156" y="29899077" font-family="verdana" font-size="20px" font-weight="bold">Test</text>
+  <rect x="4449654" y="29753500" height="32422" width="60000" stroke="#000000" fill="#783ab6" />
+  <text x="4449654" y="29753500" font-family="verdana" font-size="20px" font-weight="bold">Test</text>
+  <rect x="4784555" y="29338291" height="32422" width="74000" stroke="#000000" fill="#555ab8" />
+  <text x="4784555" y="29338291" font-family="verdana" font-size="20px" font-weight="bold">Test</text>
+  <rect x="4996362" y="28790288" height="32422" width="104000" stroke="#000000" fill="#588694" />
+  <text x="4996362" y="28790288" font-family="verdana" font-size="20px" font-weight="bold">Test</text>
+  <rect x="4781781" y="30012292" height="32422" width="128000" stroke="#000000" fill="#a79677" />
+  <text x="4781781" y="30012292" font-family="verdana" font-size="20px" font-weight="bold">Test</text>
+  <rect x="4070382" y="30048782" height="32422" width="100000" stroke="#000000" fill="#61b481" />
+  <text x="4070382" y="30048782" font-family="verdana" font-size="20px" font-weight="bold">Test</text>
+  <rect x="4700829" y="29581563" height="32422" width="40000" stroke="#000000" fill="#8961a0" />
+  <text x="4700829" y="29581563" font-family="verdana" font-size="20px" font-weight="bold">Test</text>
+  <rect x="3338494" y="29623056" height="32422" width="94000" stroke="#000000" fill="#394d6c" />
+  <text x="3338494" y="29623056" font-family="verdana" font-size="20px" font-weight="bold">Test</text>
+  <rect x="4586053" y="29477129" height="32422" width="70000" stroke="#000000" fill="#73896b" />
+  <text x="4586053" y="29477129" font-family="verdana" font-size="20px" font-weight="bold">Test</text>
+  <rect x="4734687" y="29746912" height="32422" width="66000" stroke="#000000" fill="#505ea3" />
+  <text x="4734687" y="29746912" font-family="verdana" font-size="20px" font-weight="bold">Test</text>
+  <rect x="4174077" y="29608410" height="32422" width="96000" stroke="#000000" fill="#9b8999" />
+  <text x="4174077" y="29608410" font-family="verdana" font-size="20px" font-weight="bold">Test</text>
+  <rect x="4565538" y="29354465" height="32422" width="66000" stroke="#000000" fill="#39414b" />
+  <text x="4565538" y="29354465" font-family="verdana" font-size="20px" font-weight="bold">Test</text>
+  <rect x="4966796" y="28633575" height="32422" width="72000" stroke="#000000" fill="#8ab576" />
+  <text x="4966796" y="28633575" font-family="verdana" font-size="20px" font-weight="bold">Test</text>
+  <rect x="4643331" y="29395742" height="32422" width="54000" stroke="#000000" fill="#6f5796" />
+  <text x="4643331" y="29395742" font-family="verdana" font-size="20px" font-weight="bold">Test</text>
+  <rect x="5271752" y="29544760" height="32422" width="64000" stroke="#000000" fill="#415893" />
+  <text x="5271752" y="29544760" font-family="verdana" font-size="20px" font-weight="bold">Test</text>
+  <rect x="4284976" y="29829499" height="32422" width="66000" stroke="#000000" fill="#3884c1" />
+  <text x="4284976" y="29829499" font-family="verdana" font-size="20px" font-weight="bold">Test</text>
+  <rect x="4072611" y="28823839" height="32422" width="44000" stroke="#000000" fill="#c46e72" />
+  <text x="4072611" y="28823839" font-family="verdana" font-size="20px" font-weight="bold">Test</text>
+  <rect x="5029633" y="28482371" height="32422" width="60000" stroke="#000000" fill="#95b6be" />
+  <text x="5029633" y="28482371" font-family="verdana" font-size="20px" font-weight="bold">Test</text>
+  <rect x="5216322" y="29707231" height="32422" width="104000" stroke="#000000" fill="#4f6a78" />
+  <text x="5216322" y="29707231" font-family="verdana" font-size="20px" font-weight="bold">Test</text>
+  <rect x="3399497" y="28800675" height="32422" width="74000" stroke="#000000" fill="#49605a" />
+  <text x="3399497" y="28800675" font-family="verdana" font-size="20px" font-weight="bold">Test</text>
+  <rect x="3959497" y="29274454" height="32422" width="84000" stroke="#000000" fill="#5345c2" />
+  <text x="3959497" y="29274454" font-family="verdana" font-size="20px" font-weight="bold">Test</text>
+  <rect x="4203476" y="29909231" height="32422" width="54000" stroke="#000000" fill="#b08b69" />
+  <text x="4203476" y="29909231" font-family="verdana" font-size="20px" font-weight="bold">Test</text>
+  <rect x="5185991" y="29780448" height="32422" width="118000" stroke="#000000" fill="#365cae" />
+  <text x="5185991" y="29780448" font-family="verdana" font-size="20px" font-weight="bold">Test</text>
+  <rect x="3386545" y="28553763" height="32422" width="78000" stroke="#000000" fill="#859a73" />
+  <text x="3386545" y="28553763" font-family="verdana" font-size="20px" font-weight="bold">Test</text>
+  <rect x="4014967" y="29571473" height="32422" width="40000" stroke="#000000" fill="#4a5cb2" />
+  <text x="4014967" y="29571473" font-family="verdana" font-size="20px" font-weight="bold">Test</text>
+  <rect x="4067620" y="29737168" height="32422" width="96000" stroke="#000000" fill="#76bcbf" />
+  <text x="4067620" y="29737168" font-family="verdana" font-size="20px" font-weight="bold">Test</text>
 </svg>
