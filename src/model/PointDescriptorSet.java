@@ -7,7 +7,8 @@ public class PointDescriptorSet implements Iterable<PointDescriptor>{
 	private List<PointDescriptor> points;
 	private List<PointDescriptorPair> collisions;
 	
-	private static final Lock LOCK = new ReentrantLock();
+	private static final Lock LOCK1 = new ReentrantLock();
+	private static final Lock LOCK2 = new ReentrantLock();
 	
 	public PointDescriptorSet(Collection<PointDescriptor> points){
 		this.points = new LinkedList<PointDescriptor>(points);
@@ -55,6 +56,50 @@ public class PointDescriptorSet implements Iterable<PointDescriptor>{
 				}
 			}
 		}
+//		System.out.println(this.collisions.size() + " Kollisionen gefunden");
+	}
+	
+	public void findCollisionsSweepLineMultithreaded(){
+		this.collisions = new LinkedList<PointDescriptorPair>();
+		TreeSet<EventPoint> events = new TreeSet<EventPoint>();
+		PointDescriptor[] pointArray = this.points.toArray(new PointDescriptor[this.points.size()]);
+		int[] currentIndex = {0};
+		
+		Thread[] t = new Thread[Runtime.getRuntime().availableProcessors()];
+		for(int i = 0; i < t.length; i++){
+			EventMaker c = new EventMaker(currentIndex, events, pointArray);
+			t[i] = new Thread(c);
+			t[i].start();
+		}
+		for(Thread tx : t){
+			try {
+				tx.join();
+			} catch (InterruptedException e) {
+				e.printStackTrace();
+			}
+		}
+		
+		ArrayList<PointDescriptor> statusCrowd = new ArrayList<PointDescriptor>();
+		LinkedList<Thread> threads = new LinkedList<Thread>();
+		for(EventPoint e : events){
+			if(e.isStartPoint){
+				SweepLineCollisionFinder f = new SweepLineCollisionFinder(e.point, statusCrowd.toArray(new PointDescriptor[statusCrowd.size()]), this.collisions);
+				Thread tn = new Thread(f);
+				tn.start();
+				
+				statusCrowd.add(e.point);
+				threads.add(tn);
+			}
+			else statusCrowd.remove(e.point);
+		}
+		for(Thread tx : threads){
+			try {
+				tx.join();
+			} catch (InterruptedException e) {
+				e.printStackTrace();
+			}
+		}
+		
 //		System.out.println(this.collisions.size() + " Kollisionen gefunden");
 	}
 	
@@ -190,27 +235,92 @@ public class PointDescriptorSet implements Iterable<PointDescriptor>{
 		public void run() {
 			int i;
 			
-			LOCK.lock();
+			LOCK1.lock();
 			i = currentIndex[0];
 			currentIndex[0] ++ ;
-			LOCK.unlock();
+			LOCK1.unlock();
 			
 			while(i < points.length){
 //				System.out.println(i);
 				for(int j = i+1; j < points.length; j++){
 					if(points[i].collidesWith(points[j])){
-						LOCK.lock();
+						LOCK2.lock();
 						this.resultList.add(new PointDescriptorPair(points[i], points[j]));
-						LOCK.unlock();
+						LOCK2.unlock();
 					}
 				}
-				LOCK.lock();
+				LOCK1.lock();
 				i = currentIndex[0];
 				currentIndex[0] ++ ;
-				LOCK.unlock();
+				LOCK1.unlock();
 			}
 		}
 		
+	}
+	
+	private class EventMaker implements Runnable{
+		private int[] currentIndex;
+		private TreeSet<EventPoint> events;
+		private PointDescriptor[] pointArray;
+		
+		public EventMaker(int[] currentIndex, TreeSet<EventPoint> events, PointDescriptor[] pointArray) {
+			this.currentIndex = currentIndex;
+			this.events = events;
+			this.pointArray = pointArray;
+		}
+
+		@Override
+		public void run(){
+			
+			LOCK1.lock();
+			int i = currentIndex[0];
+			currentIndex[0] = i+1;
+			LOCK1.unlock();
+			
+			while(i < pointArray.length){
+				PointDescriptor p = pointArray[i];
+				
+				double yStart = p.getBotleft().y;
+				double yEnde = p.getBotleft().y + p.getHeight();
+				
+				EventPoint start = new EventPoint(true, yStart, p);
+				LOCK2.lock();
+				events.add(start);
+				LOCK2.unlock();
+				
+				EventPoint ende  = new EventPoint(false, yEnde, p);
+				LOCK2.lock();
+				events.add(ende);
+				LOCK2.unlock();
+				
+				LOCK1.lock();
+				i = currentIndex[0];
+				currentIndex[0] = i+1;
+				LOCK1.unlock();
+			}
+		}
+	}
+	
+	private class SweepLineCollisionFinder implements Runnable{
+		private List<PointDescriptorPair> resultList;
+		private PointDescriptor[] statusCrowd;
+		private PointDescriptor p;
+		public SweepLineCollisionFinder(PointDescriptor p, PointDescriptor[] statusCrowd, List<PointDescriptorPair> resultList) {
+			this.resultList = resultList;
+			this.statusCrowd = statusCrowd;
+			this.p = p;
+		}
+		
+		public void run(){
+			for(PointDescriptor t : statusCrowd){
+				if(p.collidesWith(t)){
+					PointDescriptorPair collision = new PointDescriptorPair(p, t);
+					LOCK2.lock();
+					resultList.add(collision);
+					LOCK2.unlock();
+				}
+			}
+		}
 	}
 	
 	public List<PointDescriptor> getPoints() {

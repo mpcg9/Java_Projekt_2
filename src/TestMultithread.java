@@ -8,7 +8,7 @@ public class TestMultithread {
 		double minScale = points.findMinimumScaleFactor();
 		System.out.println("Minimaler Zoomfaktor Benelux: " + minScale);
 		
-		points.findCollisionsBruteForceMultithreaded();
+		points.findCollisionsSweepLineMultithreaded();
 		minScale = points.findMinimumScaleFactor();
 		System.out.println("Minimaler Zoomfaktor Benelux: " + minScale);
 	}
