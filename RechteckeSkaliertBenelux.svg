@@ -1,87 +1,172 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="936582 18990004 1718805 2318441">
-  <rect x="2275679" y="20206968" height="32422" width="90000" stroke="#000000" fill="#4c5842" />
-  <text x="2275679" y="20206968" font-family="verdana" font-size="20px" font-weight="bold">Test</text>
-  <rect x="2208157" y="21069957" height="32422" width="62000" stroke="#000000" fill="#66818c" />
-  <text x="2208157" y="21069957" font-family="verdana" font-size="20px" font-weight="bold">Test</text>
-  <rect x="2569387" y="20500581" height="32422" width="86000" stroke="#000000" fill="#479a4f" />
-  <text x="2569387" y="20500581" font-family="verdana" font-size="20px" font-weight="bold">Test</text>
-  <rect x="1036078" y="19790323" height="32422" width="44000" stroke="#000000" fill="#406659" />
-  <text x="1036078" y="19790323" font-family="verdana" font-size="20px" font-weight="bold">Test</text>
-  <rect x="2562618" y="19630772" height="32422" width="84000" stroke="#000000" fill="#a89abf" />
-  <text x="2562618" y="19630772" font-family="verdana" font-size="20px" font-weight="bold">Test</text>
-  <rect x="1853696" y="20206968" height="32422" width="104000" stroke="#000000" fill="#54c4a1" />
-  <text x="1853696" y="20206968" font-family="verdana" font-size="20px" font-weight="bold">Test</text>
-  <rect x="2417456" y="20109971" height="32422" width="106000" stroke="#000000" fill="#569786" />
-  <text x="2417456" y="20109971" font-family="verdana" font-size="20px" font-weight="bold">Test</text>
-  <rect x="2387084" y="19826745" height="32422" width="54000" stroke="#000000" fill="#533f56" />
-  <text x="2387084" y="19826745" font-family="verdana" font-size="20px" font-weight="bold">Test</text>
-  <rect x="2078760" y="19385493" height="32422" width="84000" stroke="#000000" fill="#8e96b4" />
-  <text x="2078760" y="19385493" font-family="verdana" font-size="20px" font-weight="bold">Test</text>
-  <rect x="1725421" y="20571706" height="32422" width="76000" stroke="#000000" fill="#926446" />
-  <text x="1725421" y="20571706" font-family="verdana" font-size="20px" font-weight="bold">Test</text>
-  <rect x="1880701" y="19778687" height="32422" width="52000" stroke="#000000" fill="#668b37" />
-  <text x="1880701" y="19778687" font-family="verdana" font-size="20px" font-weight="bold">Test</text>
-  <rect x="1486759" y="20095080" height="32422" width="112000" stroke="#000000" fill="#5dae90" />
-  <text x="1486759" y="20095080" font-family="verdana" font-size="20px" font-weight="bold">Test</text>
-  <rect x="1656100" y="20710001" height="32422" width="114000" stroke="#000000" fill="#a2c17e" />
-  <text x="1656100" y="20710001" font-family="verdana" font-size="20px" font-weight="bold">Test</text>
-  <rect x="1559988" y="20725728" height="32422" width="82000" stroke="#000000" fill="#637798" />
-  <text x="1559988" y="20725728" font-family="verdana" font-size="20px" font-weight="bold">Test</text>
-  <rect x="1438447" y="20560576" height="32422" width="106000" stroke="#000000" fill="#69985c" />
-  <text x="1438447" y="20560576" font-family="verdana" font-size="20px" font-weight="bold">Test</text>
-  <rect x="1960604" y="19281220" height="32422" width="58000" stroke="#000000" fill="#868b6b" />
-  <text x="1960604" y="19281220" font-family="verdana" font-size="20px" font-weight="bold">Test</text>
-  <rect x="1246043" y="19991905" height="32422" width="50000" stroke="#000000" fill="#3f3736" />
-  <text x="1246043" y="19991905" font-family="verdana" font-size="20px" font-weight="bold">Test</text>
-  <rect x="1508687" y="20474092" height="32422" width="104000" stroke="#000000" fill="#6096a8" />
-  <text x="1508687" y="20474092" font-family="verdana" font-size="20px" font-weight="bold">Test</text>
-  <rect x="2055228" y="20805058" height="32422" width="70000" stroke="#000000" fill="#8bb697" />
-  <text x="2055228" y="20805058" font-family="verdana" font-size="20px" font-weight="bold">Test</text>
-  <rect x="2511992" y="20261029" height="32422" width="102000" stroke="#000000" fill="#3f7155" />
-  <text x="2511992" y="20261029" font-family="verdana" font-size="20px" font-weight="bold">Test</text>
-  <rect x="936582" y="19595366" height="32422" width="56000" stroke="#000000" fill="#818bb5" />
-  <text x="936582" y="19595366" font-family="verdana" font-size="20px" font-weight="bold">Test</text>
-  <rect x="1996489" y="20510197" height="32422" width="80000" stroke="#000000" fill="#a7b666" />
-  <text x="1996489" y="20510197" font-family="verdana" font-size="20px" font-weight="bold">Test</text>
-  <rect x="2349943" y="19056978" height="32422" width="118000" stroke="#000000" fill="#9f63a5" />
-  <text x="2349943" y="19056978" font-family="verdana" font-size="20px" font-weight="bold">Test</text>
-  <rect x="1215653" y="20245895" height="32422" width="114000" stroke="#000000" fill="#969c54" />
-  <text x="1215653" y="20245895" font-family="verdana" font-size="20px" font-weight="bold">Test</text>
-  <rect x="1459178" y="19887874" height="32422" width="84000" stroke="#000000" fill="#68c39d" />
-  <text x="1459178" y="19887874" font-family="verdana" font-size="20px" font-weight="bold">Test</text>
-  <rect x="1641021" y="19694121" height="32422" width="68000" stroke="#000000" fill="#a8a794" />
-  <text x="1641021" y="19694121" font-family="verdana" font-size="20px" font-weight="bold">Test</text>
-  <rect x="2083258" y="18990004" height="32422" width="56000" stroke="#000000" fill="#5bb457" />
-  <text x="2083258" y="18990004" font-family="verdana" font-size="20px" font-weight="bold">Test</text>
-  <rect x="2285797" y="20094034" height="32422" width="108000" stroke="#000000" fill="#62a655" />
-  <text x="2285797" y="20094034" font-family="verdana" font-size="20px" font-weight="bold">Test</text>
-  <rect x="1913444" y="19897330" height="32422" width="108000" stroke="#000000" fill="#c29e39" />
-  <text x="1913444" y="19897330" font-family="verdana" font-size="20px" font-weight="bold">Test</text>
-  <rect x="1326720" y="19681221" height="32422" width="60000" stroke="#000000" fill="#51a4be" />
-  <text x="1326720" y="19681221" font-family="verdana" font-size="20px" font-weight="bold">Test</text>
-  <rect x="1791798" y="20344180" height="32422" width="168000" stroke="#000000" fill="#3bac4f" />
-  <text x="1791798" y="20344180" font-family="verdana" font-size="20px" font-weight="bold">Test</text>
-  <rect x="2066371" y="19243972" height="32422" width="120000" stroke="#000000" fill="#626447" />
-  <text x="2066371" y="19243972" font-family="verdana" font-size="20px" font-weight="bold">Test</text>
-  <rect x="2218284" y="21193610" height="32422" width="102000" stroke="#000000" fill="#3c75b9" />
-  <text x="2218284" y="21193610" font-family="verdana" font-size="20px" font-weight="bold">Test</text>
-  <rect x="1087379" y="20094034" height="32422" width="68000" stroke="#000000" fill="#42bf7f" />
-  <text x="1087379" y="20094034" font-family="verdana" font-size="20px" font-weight="bold">Test</text>
-  <rect x="2365679" y="20217785" height="32422" width="58000" stroke="#000000" fill="#a772b5" />
-  <text x="2365679" y="20217785" font-family="verdana" font-size="20px" font-weight="bold">Test</text>
-  <rect x="1357431" y="19056978" height="32422" width="62000" stroke="#000000" fill="#57894e" />
-  <text x="1357431" y="19056978" font-family="verdana" font-size="20px" font-weight="bold">Test</text>
-  <rect x="1949348" y="21210474" height="32422" width="118000" stroke="#000000" fill="#9d3655" />
-  <text x="1949348" y="21210474" font-family="verdana" font-size="20px" font-weight="bold">Test</text>
-  <rect x="2342535" y="19939471" height="32422" width="80000" stroke="#000000" fill="#c3a077" />
-  <text x="2342535" y="19939471" font-family="verdana" font-size="20px" font-weight="bold">Test</text>
-  <rect x="2433209" y="21276024" height="32422" width="68000" stroke="#000000" fill="#49b8be" />
-  <text x="2433209" y="21276024" font-family="verdana" font-size="20px" font-weight="bold">Test</text>
-  <rect x="1499226" y="19667689" height="32422" width="90000" stroke="#000000" fill="#ba9d3c" />
-  <text x="1499226" y="19667689" font-family="verdana" font-size="20px" font-weight="bold">Test</text>
-  <rect x="2135001" y="19289907" height="32422" width="140000" stroke="#000000" fill="#b6b845" />
-  <text x="2135001" y="19289907" font-family="verdana" font-size="20px" font-weight="bold">Test</text>
-  <rect x="1848288" y="19956601" height="32422" width="74000" stroke="#000000" fill="#8ab280" />
-  <text x="1848288" y="19956601" font-family="verdana" font-size="20px" font-weight="bold">Test</text>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <style>.label{		font-family:monospace;}</style>
+  <g transform="translate(467.45152432588634,424.8175438893936)">
+    <rect height="11.317819647953083" width="31.417176468534823" fill="#91b94c" />
+    <text y="10.186037683157775" class="label" style="font-size: 11.317819647953083;">Duisburg</text>
+  </g>
+  <g transform="translate(443.8809796424251,726.0695607005362)">
+    <rect height="11.317819647953083" width="21.6429437894351" fill="#bb8064" />
+    <text y="10.186037683157775" class="label" style="font-size: 11.317819647953083;">Assen</text>
+  </g>
+  <g transform="translate(569.9790652195798,527.3117100514914)">
+    <rect height="11.317819647953083" width="30.02085751437772" fill="#6da79e" />
+    <text y="10.186037683157775" class="label" style="font-size: 11.317819647953083;">M?nster</text>
+  </g>
+  <g transform="translate(34.73210981638607,279.3751886187858)">
+    <rect height="11.317819647953083" width="15.359508495728136" fill="#bc4a39" />
+    <text y="10.186037683157775" class="label" style="font-size: 11.317819647953083;">Lille</text>
+  </g>
+  <g transform="translate(567.6162303872044,223.6790573795893)">
+    <rect height="11.317819647953083" width="29.32269803729917" fill="#42438d" />
+    <text y="10.186037683157775" class="label" style="font-size: 11.317819647953083;">Koblenz</text>
+  </g>
+  <g transform="translate(320.14582904258947,424.8175438893936)">
+    <rect height="11.317819647953083" width="36.30429280808468" fill="#7b6e80" />
+    <text y="10.186037683157775" class="label" style="font-size: 11.317819647953083;">Eindhoven</text>
+  </g>
+  <g transform="translate(516.9431687013822,390.95786728582385)">
+    <rect height="11.317819647953083" width="37.00245228516324" fill="#72386c" />
+    <text y="10.186037683157775" class="label" style="font-size: 11.317819647953083;">Wuppertal</text>
+  </g>
+  <g transform="translate(506.34086120576916,292.0894805663521)">
+    <rect height="11.317819647953083" width="18.850305881120896" fill="#74c23a" />
+    <text y="10.186037683157775" class="label" style="font-size: 11.317819647953083;">Bonn</text>
+  </g>
+  <g transform="translate(398.7110840635313,138.05727109321333)">
+    <rect height="11.317819647953083" width="29.32269803729917" fill="#37477b" />
+    <text y="10.186037683157775" class="label" style="font-size: 11.317819647953083;">Diekirch</text>
+  </g>
+  <g transform="translate(275.367674652986,552.1401166187994)">
+    <rect height="11.317819647953083" width="26.530060128984964" fill="#643594" />
+    <text y="10.186037683157775" class="label" style="font-size: 11.317819647953083;">Utrecht</text>
+  </g>
+  <g transform="translate(329.5728089085132,275.3131953747024)">
+    <rect height="11.317819647953083" width="18.15214640404234" fill="#6b79b2" />
+    <text y="10.186037683157775" class="label" style="font-size: 11.317819647953083;">Liege</text>
+  </g>
+  <g transform="translate(192.05549362076988,385.7597836455848)">
+    <rect height="11.317819647953083" width="39.096930716398894" fill="#3dab68" />
+    <text y="10.186037683157775" class="label" style="font-size: 11.317819647953083;">Antwerpen</text>
+  </g>
+  <g transform="translate(251.16899081841115,600.4161427036582)">
+    <rect height="11.317819647953083" width="39.79509019347744" fill="#685c89" />
+    <text y="10.186037683157775" class="label" style="font-size: 11.317819647953083;">Amsterdam</text>
+  </g>
+  <g transform="translate(217.61828825475746,605.9060271139031)">
+    <rect height="11.317819647953083" width="28.624538560220618" fill="#459aa8" />
+    <text y="10.186037683157775" class="label" style="font-size: 11.317819647953083;">Haarlem</text>
+  </g>
+  <g transform="translate(175.19078901867138,548.2548125075041)">
+    <rect height="11.317819647953083" width="37.00245228516324" fill="#7da5a0" />
+    <text y="10.186037683157775" class="label" style="font-size: 11.317819647953083;">The Hague</text>
+  </g>
+  <g transform="translate(357.46540197651564,101.65743810810156)">
+    <rect height="11.317819647953083" width="20.246624835278" fill="#508d65" />
+    <text y="10.186037683157775" class="label" style="font-size: 11.317819647953083;">Arlon</text>
+  </g>
+  <g transform="translate(108.026602221654,349.7434983842807)">
+    <rect height="11.317819647953083" width="17.45398692696379" fill="#4d67ac" />
+    <text y="10.186037683157775" class="label" style="font-size: 11.317819647953083;">Gent</text>
+  </g>
+  <g transform="translate(199.71034741534285,518.0649431288633)">
+    <rect height="11.317819647953083" width="36.30429280808468" fill="#565c9c" />
+    <text y="10.186037683157775" class="label" style="font-size: 11.317819647953083;">Rotterdam</text>
+  </g>
+  <g transform="translate(390.4967341250163,633.5985960069128)">
+    <rect height="11.317819647953083" width="24.435581697749306" fill="#9da999" />
+    <text y="10.186037683157775" class="label" style="font-size: 11.317819647953083;">Zwolle</text>
+  </g>
+  <g transform="translate(549.9436880715444,443.68914289330974)">
+    <rect height="11.317819647953083" width="35.606133331006134" fill="#9465a4" />
+    <text y="10.186037683157775" class="label" style="font-size: 11.317819647953083;">Dortmund</text>
+  </g>
+  <g transform="translate(-1.0163455342168565E-5,211.3196522234415)">
+    <rect height="11.317819647953083" width="19.548465358199447" fill="#9c473e" />
+    <text y="10.186037683157775" class="label" style="font-size: 11.317819647953083;">Arras</text>
+  </g>
+  <g transform="translate(369.99215896686445,530.6686267858325)">
+    <rect height="11.317819647953083" width="27.926379083142066" fill="#9fbf54" />
+    <text y="10.186037683157775" class="label" style="font-size: 11.317819647953083;">Arnhem</text>
+  </g>
+  <g transform="translate(493.375718983642,23.379320765598713)">
+    <rect height="11.317819647953083" width="41.191409147634545" fill="#588e61" />
+    <text y="10.186037683157775" class="label" style="font-size: 11.317819647953083;">Saarbrücken</text>
+  </g>
+  <g transform="translate(97.41796399885372,438.4060757881136)">
+    <rect height="11.317819647953083" width="39.79509019347744" fill="#b14b3a" />
+    <text y="10.186037683157775" class="label" style="font-size: 11.317819647953083;">Middelburg</text>
+  </g>
+  <g transform="translate(182.42755101212612,313.42812484988656)">
+    <rect height="11.317819647953083" width="29.32269803729917" fill="#844347" />
+    <text y="10.186037683157775" class="label" style="font-size: 11.317819647953083;">Brussels</text>
+  </g>
+  <g transform="translate(245.90531763902712,245.79287116449163)">
+    <rect height="11.317819647953083" width="23.737422220670755" fill="#8e50a6" />
+    <text y="10.186037683157775" class="label" style="font-size: 11.317819647953083;">Namur</text>
+  </g>
+  <g transform="translate(400.28124784823206,1.5550423046308044E-4)">
+    <rect height="11.317819647953083" width="19.548465358199447" fill="#4c9b5a" />
+    <text y="10.186037683157775" class="label" style="font-size: 11.317819647953083;">Metz</text>
+  </g>
+  <g transform="translate(470.98359689559123,385.3946240578333)">
+    <rect height="11.317819647953083" width="37.70061176224179" fill="#9996b9" />
+    <text y="10.186037683157775" class="label" style="font-size: 11.317819647953083;">D?üsseldorf</text>
+  </g>
+  <g transform="translate(341.002769795567,316.72898370531533)">
+    <rect height="11.317819647953083" width="37.70061176224179" fill="#af4aaf" />
+    <text y="10.186037683157775" class="label" style="font-size: 11.317819647953083;">Maastricht</text>
+  </g>
+  <g transform="translate(136.189258890374,241.2896875715929)">
+    <rect height="11.317819647953083" width="20.94478431235655" fill="#3a7baa" />
+    <text y="10.186037683157775" class="label" style="font-size: 11.317819647953083;">Mons</text>
+  </g>
+  <g transform="translate(298.53846919820273,472.7154307125705)">
+    <rect height="11.317819647953083" width="58.64539607459834" fill="#b84c57" />
+    <text y="10.186037683157775" class="label" style="font-size: 11.317819647953083;">'s-Hertogenbosch</text>
+  </g>
+  <g transform="translate(394.3863405520132,88.65502407635688)">
+    <rect height="11.317819647953083" width="41.8895686247131" fill="#8cb35c" />
+    <text y="10.186037683157775" class="label" style="font-size: 11.317819647953083;">Luxembourg</text>
+  </g>
+  <g transform="translate(447.41614717785114,769.2340819423528)">
+    <rect height="11.317819647953083" width="35.606133331006134" fill="#6ebfb8" />
+    <text y="10.186037683157775" class="label" style="font-size: 11.317819647953083;">Groningen</text>
+  </g>
+  <g transform="translate(52.64005054993924,385.3946240578333)">
+    <rect height="11.317819647953083" width="23.737422220670755" fill="#616065" />
+    <text y="10.186037683157775" class="label" style="font-size: 11.317819647953083;">Brugge</text>
+  </g>
+  <g transform="translate(498.86870079442116,428.5934115964824)">
+    <rect height="11.317819647953083" width="20.246624835278" fill="#975caf" />
+    <text y="10.186037683157775" class="label" style="font-size: 11.317819647953083;">Essen</text>
+  </g>
+  <g transform="translate(146.9098493150386,23.379320765598713)">
+    <rect height="11.317819647953083" width="21.6429437894351" fill="#8f3d3a" />
+    <text y="10.186037683157775" class="label" style="font-size: 11.317819647953083;">Reims</text>
+  </g>
+  <g transform="translate(353.536094325195,775.1211257432681)">
+    <rect height="11.317819647953083" width="41.191409147634545" fill="#67785f" />
+    <text y="10.186037683157775" class="label" style="font-size: 11.317819647953083;">Leeuwarden</text>
+  </g>
+  <g transform="translate(490.78966541223156,331.43976037949784)">
+    <rect height="11.317819647953083" width="27.926379083142066" fill="#b38b7b" />
+    <text y="10.186037683157775" class="label" style="font-size: 11.317819647953083;">Cologne</text>
+  </g>
+  <g transform="translate(522.4422402986596,798.003187807112)">
+    <rect height="11.317819647953083" width="23.737422220670755" fill="#73923a" />
+    <text y="10.186037683157775" class="label" style="font-size: 11.317819647953083;">Emden</text>
+  </g>
+  <g transform="translate(196.40758347703277,236.5659850245408)">
+    <rect height="11.317819647953083" width="31.417176468534823" fill="#719fa1" />
+    <text y="10.186037683157775" class="label" style="font-size: 11.317819647953083;">Charleroi</text>
+  </g>
+  <g transform="translate(418.3438523903857,104.69017105102482)">
+    <rect height="11.317819647953083" width="48.87116339549861" fill="#a1bbb9" />
+    <text y="10.186037683157775" class="label" style="font-size: 11.317819647953083;">Grevenmacher</text>
+  </g>
+  <g transform="translate(318.2582134086012,337.4193016919838)">
+    <rect height="11.317819647953083" width="25.83190065190641" fill="#913ab8" />
+    <text y="10.186037683157775" class="label" style="font-size: 11.317819647953083;">Hasselt</text>
+  </g>
 </svg>

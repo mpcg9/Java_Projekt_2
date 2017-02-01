@@ -175,14 +175,6 @@ public class PointDescriptorSet implements Iterable<PointDescriptor>{
 			this.point2 = p2;
 		}
 		
-		public PointDescriptor p1(){
-			return point1;
-		}
-		
-		public PointDescriptor p2(){
-			return point2;
-		}
-		
 		public double getMinimumScaleFactor(){
 			return Math.min(getMinimumScaleFactorX(), getMinimumScaleFactorY());
 		}

@@ -8,7 +8,15 @@ import java.io.*;
 
 public class recttosvg {
 	
-	public static void saveSVG(Iterable<? extends Rectangle> Rechtecke, String filename){
+	public static void saveSVG(Iterable<PointDescriptor> rechtecke, String filename){
+		int maxWidth = 600;
+		int maxHeight = 400;
+		
+		int[] viewbox = getViewBoxInts(rechtecke);
+		
+		double scaleW = ((double) maxWidth)/((double) viewbox[2]);
+		double scaleH = ((double) maxHeight)/((double) viewbox[3]);
+		double scale = Math.max(scaleW,scaleH);
 		
 		Element svg = new Element("svg");
 		Document svgdoc = new Document(svg);
@@ -17,36 +25,52 @@ public class recttosvg {
 		
 		svg.setNamespace(n);
 		svg.addNamespaceDeclaration(nd);
-		svg.setAttribute("viewBox", getViewBoxSize(Rechtecke));
+//		svg.setAttribute("viewBox", getViewBoxSize(Rechtecke));
+		
+		Element style = new Element("style",n);
+		style.addContent(""
+				+ ".label{"
+				+ "		font-family:monospace;"
+				+ "}");
+		svg.addContent(style);
 		
 		Random rand = new Random();
 		
-		for (Rectangle r : Rechtecke){
+		for (PointDescriptor r : rechtecke){
 			int randR = rand.nextInt(0x90) + 0x35;
 			int randG = rand.nextInt(0x90) + 0x35;
 			int randB = rand.nextInt(0x90) + 0x35;
 			
 			String randColour = "#" + Integer.toHexString(randR) + Integer.toHexString(randG) + Integer.toHexString(randB);
 			
+			Element g = new Element("g", n);
 			Element curr = new Element("rect", n);
 			
-			curr.setAttribute("x", String.valueOf(Math.round( r.getBotleft().getX())));
-			curr.setAttribute("y", String.valueOf(Math.round( r.getBotleft().getY())));
-			curr.setAttribute("height", String.valueOf(Math.round( r.getHeight())));
-			curr.setAttribute("width", String.valueOf(Math.round( r.getWidth())));
-			curr.setAttribute("stroke", "#000000");
+			double x 		= (r.getBotleft().getX() - viewbox[0]) * scale;
+			double y 		= (r.getBotleft().getY() - viewbox[1]) * scale;
+			double height 	=  r.getHeight()					   * scale;
+			double width 	=  r.getWidth()						   * scale;
+			              
+			g.setAttribute("transform", "translate("+x+","+y+")");
+			
+//			curr.setAttribute("x", 		String.valueOf("0");
+//			curr.setAttribute("y", 		String.valueOf("0");
+			curr.setAttribute("height", String.valueOf(height));
+			curr.setAttribute("width", 	String.valueOf(width));
+//			curr.setAttribute("stroke", "#000000");
 			curr.setAttribute("fill", randColour);
+			g.addContent(curr);
 			
-			Element text = new Element("text", n);
-			text.setAttribute("x", String.valueOf(Math.round( r.getBotleft().getX())));
-			text.setAttribute("y", String.valueOf(Math.round( r.getBotleft().getY())));
-			text.setAttribute("font-family", "verdana");
-			text.setAttribute("font-size", "20px");
-			text.setAttribute("font-weight", "bold");
-			text.setText("Test");
-			
-			svg.addContent(curr);
-			svg.addContent(text);
+			if (r.getDescription() != null) {
+				Element text = new Element("text", n);
+				//			text.setAttribute("x", "0");
+				text.setAttribute("y", String.valueOf(height * 0.9));
+				text.setAttribute("class", "label");
+				text.setAttribute("style", "font-size: " + height + ";");
+				text.addContent(r.getDescription());
+				g.addContent(text);
+			}
+			svg.addContent(g);
 		}
 		
 		XMLOutputter out = new XMLOutputter(Format.getPrettyFormat());
@@ -60,7 +84,6 @@ public class recttosvg {
 		}catch(Exception e){
 			System.out.println("Fehler: Exception!");
 		}
-		
 	}
 	
 	public static String getViewBoxSize(Iterable<? extends Rectangle> rechtecke){
@@ -79,4 +102,20 @@ public class recttosvg {
 		return Math.round(xMin) + " " + Math.round(yMin) + " " + Math.round(xMax - xMin) + " " + Math.round(yMax - yMin);
 	}
 
+	public static int[] getViewBoxInts(Iterable<? extends Rectangle> rechtecke){
+		double yMin = Double.MAX_VALUE;
+		double yMax = Double.MIN_VALUE;
+		double xMin = Double.MAX_VALUE;
+		double xMax = Double.MIN_VALUE;
+		
+		for(Rectangle r : rechtecke){
+			if(r.getBotleft().y < yMin) yMin = r.getBotleft().y;
+			if(r.getBotleft().y + r.getHeight() > yMax) yMax = r.getBotleft().y + r.getHeight();
+			if(r.getBotleft().x < xMin) xMin = r.getBotleft().x;
+			if(r.getBotleft().x + r.getWidth() > xMax) xMax = r.getBotleft().x + r.getWidth();
+		}
+		
+		int[] out = {(int) Math.round(xMin), (int) Math.round(yMin), (int) Math.round(xMax - xMin), (int) Math.round(yMax - yMin)};
+		return out;
+	}
 }
