@@ -17,6 +17,7 @@ public class recttosvg {
 		double scaleW = ((double) maxWidth)/((double) viewbox[2]);
 		double scaleH = ((double) maxHeight)/((double) viewbox[3]);
 		double scale = Math.max(scaleW,scaleH);
+		double boxHeight = viewbox[3] * scale;
 		
 		Element svg = new Element("svg");
 		Document svgdoc = new Document(svg);
@@ -50,7 +51,9 @@ public class recttosvg {
 			double y 		= (r.getBotleft().getY() - viewbox[1]) * scale;
 			double height 	=  r.getHeight()					   * scale;
 			double width 	=  r.getWidth()						   * scale;
-			              
+			
+			y = boxHeight - y;
+			
 			g.setAttribute("transform", "translate("+x+","+y+")");
 			
 //			curr.setAttribute("x", 		String.valueOf("0");
