@@ -4,7 +4,6 @@ import java.io.BufferedReader;
 import java.io.File;
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
-import java.io.FileReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 import java.io.UnsupportedEncodingException;
@@ -41,6 +40,7 @@ public class CsvReader {
 //					System.out.println(args[0]);
 					args[0] = args[0].replace('\ufffd', '\u00FC'); // wer auch immer die Testdaten gemacht hat: "\ufffd"? so kodiert man das ue doch nicht!
 //					System.out.println(args[0]);
+					
 					list.add(new PointDescriptor(args[0], y, x, width, height));
 				} catch (NumberFormatException e) {
 					continue nextLine;

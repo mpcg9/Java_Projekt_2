@@ -78,14 +78,33 @@ public class recttosvg {
 		
 		XMLOutputter out = new XMLOutputter(Format.getPrettyFormat());
 		
+		
+		FileOutputStream fos = null;
+		OutputStreamWriter osw = null;
+		try {
+			fos = new FileOutputStream(filename);
+			osw = new OutputStreamWriter(fos, "UTF-8");
+		} catch (FileNotFoundException | UnsupportedEncodingException e1) {
+			e1.printStackTrace();
+		}
+		
 		try{
-			FileWriter fw = new FileWriter(filename, false);
-			out.output(svgdoc, fw);
+			out.output(svgdoc, osw);
 			System.out.println("File saved");
+			
+			fos.close();
 		}catch(IOException e){
 			System.out.println("Fehler: IOException!");
 		}catch(Exception e){
 			System.out.println("Fehler: Exception!");
+		}finally{
+			try {
+				if (fos != null) {
+					fos.close();
+				}
+			} catch (IOException e) {
+				e.printStackTrace();
+			}
 		}
 	}
 	

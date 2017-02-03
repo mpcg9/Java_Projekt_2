@@ -1,144 +1,144 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
   <style>.label{		font-family:monospace;}</style>
-  <g transform="translate(467.30584575183417,216.24418479455287)">
-    <rect height="39.222619650097684" width="60.48789536400607" fill="#6d634c" />
+  <g transform="translate(467.30584575183417,217.4758006077017)">
+    <rect height="39.222619650097684" width="60.48789536400607" fill="#7b9863" />
     <text y="35.30035768508792" class="label" style="font-size: 39.222619650097684;">Chur</text>
   </g>
-  <g transform="translate(120.2580178923194,245.52855371425917)">
-    <rect height="39.222619650097684" width="118.55627491345189" fill="#a17293" />
+  <g transform="translate(120.2580178923194,188.1914316879954)">
+    <rect height="39.222619650097684" width="118.55627491345189" fill="#72838e" />
     <text y="35.30035768508792" class="label" style="font-size: 39.222619650097684;">Neuchatel</text>
   </g>
-  <g transform="translate(438.1192748711103,321.4507461181892)">
-    <rect height="39.222619650097684" width="91.94160095328922" fill="#3d4d64" />
+  <g transform="translate(438.1192748711103,112.26923928406535)">
+    <rect height="39.222619650097684" width="91.94160095328922" fill="#b64c9e" />
     <text y="35.30035768508792" class="label" style="font-size: 39.222619650097684;">Herisau</text>
   </g>
-  <g transform="translate(408.9494434105495,255.57291714972934)">
-    <rect height="39.222619650097684" width="79.84402188048801" fill="#b8925e" />
+  <g transform="translate(408.9494434105495,178.14706825252523)">
+    <rect height="39.222619650097684" width="79.84402188048801" fill="#9e3e55" />
     <text y="35.30035768508792" class="label" style="font-size: 39.222619650097684;">Glarus</text>
   </g>
-  <g transform="translate(503.21845767964385,347.9349198636202)">
-    <rect height="39.222619650097684" width="96.78063258240971" fill="#85b1bf" />
+  <g transform="translate(503.21845767964385,85.78506553863434)">
+    <rect height="39.222619650097684" width="96.78063258240971" fill="#3e3579" />
     <text y="35.30035768508792" class="label" style="font-size: 39.222619650097684;">Bregenz</text>
   </g>
-  <g transform="translate(173.04905056183173,5.165666265798664E-4)">
-    <rect height="39.222619650097684" width="72.58547443680729" fill="#b17ba6" />
+  <g transform="translate(173.04905056183173,433.719468835628)">
+    <rect height="39.222619650097684" width="72.58547443680729" fill="#459ba8" />
     <text y="35.30035768508792" class="label" style="font-size: 39.222619650097684;">Aosta</text>
   </g>
-  <g transform="translate(83.49645726429378,153.6972657455029)">
-    <rect height="39.222619650097684" width="111.29772746977116" fill="#5e98a9" />
+  <g transform="translate(83.49645726429378,280.02271965675163)">
+    <rect height="39.222619650097684" width="111.29772746977116" fill="#7f82a3" />
     <text y="35.30035768508792" class="label" style="font-size: 39.222619650097684;">Lausanne</text>
   </g>
-  <g transform="translate(352.5635392677335,249.66245254220507)">
-    <rect height="39.222619650097684" width="96.78063258240971" fill="#3ab85e" />
+  <g transform="translate(352.5635392677335,184.0575328600495)">
+    <rect height="39.222619650097684" width="96.78063258240971" fill="#8d5b8b" />
     <text y="35.30035768508792" class="label" style="font-size: 39.222619650097684;">Schwyz</text>
   </g>
-  <g transform="translate(193.51518088905104,229.33772972798565)">
-    <rect height="39.222619650097684" width="58.06837954944582" fill="#ac4a4f" />
+  <g transform="translate(193.51518088905104,204.38225567426892)">
+    <rect height="39.222619650097684" width="58.06837954944582" fill="#beaa97" />
     <text y="35.30035768508792" class="label" style="font-size: 39.222619650097684;">Bern</text>
   </g>
-  <g transform="translate(414.5114227357868,358.1378148142917)">
-    <rect height="39.222619650097684" width="125.81482235713263" fill="#56a443" />
+  <g transform="translate(414.5114227357868,75.58217058796288)">
+    <rect height="39.222619650097684" width="125.81482235713263" fill="#3abd75" />
     <text y="35.30035768508792" class="label" style="font-size: 39.222619650097684;">Frauenfeld</text>
   </g>
-  <g transform="translate(269.87665417255585,322.7803244973958)">
-    <rect height="39.222619650097684" width="72.58547443680729" fill="#bb4c5d" />
+  <g transform="translate(269.87665417255585,110.93966090485878)">
+    <rect height="39.222619650097684" width="72.58547443680729" fill="#449cbf" />
     <text y="35.30035768508792" class="label" style="font-size: 39.222619650097684;">Aarau</text>
   </g>
-  <g transform="translate(351.216975040678,221.934674282765)">
-    <rect height="39.222619650097684" width="89.52208513872898" fill="#b0bf8d" />
+  <g transform="translate(351.216975040678,211.78531111948956)">
+    <rect height="39.222619650097684" width="89.52208513872898" fill="#9aa39d" />
     <text y="35.30035768508792" class="label" style="font-size: 39.222619650097684;">Altdorf</text>
   </g>
-  <g transform="translate(402.66023989499297,88.83639193736663)">
-    <rect height="39.222619650097684" width="125.81482235713263" fill="#b9a067" />
+  <g transform="translate(402.66023989499297,344.88359346488795)">
+    <rect height="39.222619650097684" width="125.81482235713263" fill="#903b93" />
     <text y="35.30035768508792" class="label" style="font-size: 39.222619650097684;">Bellinzona</text>
   </g>
-  <g transform="translate(350.5430800033066,385.63533380245076)">
-    <rect height="39.222619650097684" width="154.84901213185555" fill="#a24ba6" />
+  <g transform="translate(350.5430800033066,48.084651599803806)">
+    <rect height="39.222619650097684" width="154.84901213185555" fill="#4c8e42" />
     <text y="35.30035768508792" class="label" style="font-size: 39.222619650097684;">Schaffhausen</text>
   </g>
-  <g transform="translate(177.7594474229132,394.4978266699196)">
-    <rect height="39.222619650097684" width="120.97579072801214" fill="#618683" />
+  <g transform="translate(177.7594474229132,39.22215873233495)">
+    <rect height="39.222619650097684" width="120.97579072801214" fill="#b76e99" />
     <text y="35.30035768508792" class="label" style="font-size: 39.222619650097684;">Mulhouse</text>
   </g>
-  <g transform="translate(330.88158845245744,281.0204324078015)">
-    <rect height="39.222619650097684" width="48.390316291204854" fill="#bab559" />
+  <g transform="translate(330.88158845245744,152.6995529944531)">
+    <rect height="39.222619650097684" width="48.390316291204854" fill="#b1738e" />
     <text y="35.30035768508792" class="label" style="font-size: 39.222619650097684;">Zug</text>
   </g>
-  <g transform="translate(-5.791111101881792E-4,291.09806176620566)">
-    <rect height="39.222619650097684" width="113.7172432843314" fill="#716d92" />
+  <g transform="translate(-5.791111101881792E-4,142.6219236360489)">
+    <rect height="39.222619650097684" width="113.7172432843314" fill="#666b63" />
     <text y="35.30035768508792" class="label" style="font-size: 39.222619650097684;">Besancon</text>
   </g>
-  <g transform="translate(303.00500198601924,255.65553877576505)">
-    <rect height="39.222619650097684" width="84.6830535096085" fill="#3e688a" />
+  <g transform="translate(303.00500198601924,178.0644466264895)">
+    <rect height="39.222619650097684" width="84.6830535096085" fill="#b2c03b" />
     <text y="35.30035768508792" class="label" style="font-size: 39.222619650097684;">Luzern</text>
   </g>
-  <g transform="translate(339.10501545465723,321.18002286442453)">
-    <rect height="39.222619650097684" width="79.84402188048801" fill="#864f40" />
-    <text y="35.30035768508792" class="label" style="font-size: 39.222619650097684;">Z�?rich</text>
+  <g transform="translate(339.10501545465723,112.53996253783004)">
+    <rect height="39.222619650097684" width="79.84402188048801" fill="#48787c" />
+    <text y="35.30035768508792" class="label" style="font-size: 39.222619650097684;">Züürich</text>
   </g>
-  <g transform="translate(202.9449029874972,287.54100817191505)">
-    <rect height="39.222619650097684" width="116.13675909889164" fill="#777960" />
+  <g transform="translate(202.9449029874972,146.1789772303395)">
+    <rect height="39.222619650097684" width="116.13675909889164" fill="#c28040" />
     <text y="35.30035768508792" class="label" style="font-size: 39.222619650097684;">Solothurn</text>
   </g>
-  <g transform="translate(298.0223274532378,225.8629747543684)">
-    <rect height="39.222619650097684" width="79.84402188048801" fill="#886b57" />
+  <g transform="translate(298.0223274532378,207.85701064788617)">
+    <rect height="39.222619650097684" width="79.84402188048801" fill="#b79e71" />
     <text y="35.30035768508792" class="label" style="font-size: 39.222619650097684;">Sarnen</text>
   </g>
-  <g transform="translate(395.47946597253446,50.774241028133005)">
-    <rect height="39.222619650097684" width="87.10256932416874" fill="#61763a" />
+  <g transform="translate(395.47946597253446,382.94574437412155)">
+    <rect height="39.222619650097684" width="87.10256932416874" fill="#933eb6" />
     <text y="35.30035768508792" class="label" style="font-size: 39.222619650097684;">Lugano</text>
   </g>
-  <g transform="translate(316.9166142505448,235.88848895188607)">
-    <rect height="39.222619650097684" width="65.32692699312655" fill="#583c6c" />
+  <g transform="translate(316.9166142505448,197.8314964503685)">
+    <rect height="39.222619650097684" width="65.32692699312655" fill="#914179" />
     <text y="35.30035768508792" class="label" style="font-size: 39.222619650097684;">Stans</text>
   </g>
-  <g transform="translate(469.54672387477393,272.08181310450107)">
-    <rect height="39.222619650097684" width="77.42450606592777" fill="#bb7e3f" />
+  <g transform="translate(469.54672387477393,161.6381722977535)">
+    <rect height="39.222619650097684" width="77.42450606592777" fill="#c25589" />
     <text y="35.30035768508792" class="label" style="font-size: 39.222619650097684;">Vaduz</text>
   </g>
-  <g transform="translate(229.87975365296484,341.2387126562851)">
-    <rect height="39.222619650097684" width="79.84402188048801" fill="#a98a3a" />
+  <g transform="translate(229.87975365296484,92.48127274596948)">
+    <rect height="39.222619650097684" width="79.84402188048801" fill="#55b7c4" />
     <text y="35.30035768508792" class="label" style="font-size: 39.222619650097684;">Liestal</text>
   </g>
-  <g transform="translate(178.3007469448572,96.98524256654218)">
-    <rect height="39.222619650097684" width="53.22934792032534" fill="#9459aa" />
+  <g transform="translate(178.3007469448572,336.7347428357124)">
+    <rect height="39.222619650097684" width="53.22934792032534" fill="#813e41" />
     <text y="35.30035768508792" class="label" style="font-size: 39.222619650097684;">Sion</text>
   </g>
-  <g transform="translate(410.7410924517155,14.049956549528504)">
-    <rect height="39.222619650097684" width="72.58547443680729" fill="#8cab5b" />
+  <g transform="translate(410.7410924517155,419.67002885272603)">
+    <rect height="39.222619650097684" width="72.58547443680729" fill="#383565" />
     <text y="35.30035768508792" class="label" style="font-size: 39.222619650097684;">Como</text>
   </g>
-  <g transform="translate(456.08393905239666,311.5423788276241)">
-    <rect height="39.222619650097684" width="125.81482235713263" fill="#b23569" />
+  <g transform="translate(456.08393905239666,122.17760657463049)">
+    <rect height="39.222619650097684" width="125.81482235713263" fill="#58a06c" />
     <text y="35.30035768508792" class="label" style="font-size: 39.222619650097684;">Appenzell</text>
   </g>
-  <g transform="translate(14.815656122282332,91.35925011139906)">
-    <rect height="39.222619650097684" width="89.52208513872898" fill="#8d384a" />
+  <g transform="translate(14.815656122282332,342.3607352908555)">
+    <rect height="39.222619650097684" width="89.52208513872898" fill="#638595" />
     <text y="35.30035768508792" class="label" style="font-size: 39.222619650097684;">Geneva</text>
   </g>
-  <g transform="translate(150.82774297483493,206.43021733300822)">
-    <rect height="39.222619650097684" width="101.61966421153019" fill="#69558c" />
+  <g transform="translate(150.82774297483493,227.28976806924635)">
+    <rect height="39.222619650097684" width="101.61966421153019" fill="#667abe" />
     <text y="35.30035768508792" class="label" style="font-size: 39.222619650097684;">Fribourg</text>
   </g>
-  <g transform="translate(210.08514626981233,360.60389421070346)">
-    <rect height="39.222619650097684" width="65.32692699312655" fill="#97b16e" />
+  <g transform="translate(210.08514626981233,73.1160911915511)">
+    <rect height="39.222619650097684" width="65.32692699312655" fill="#a7c164" />
     <text y="35.30035768508792" class="label" style="font-size: 39.222619650097684;">Basel</text>
   </g>
-  <g transform="translate(448.7172477201104,329.3253313224472)">
-    <rect height="39.222619650097684" width="142.7514330590543" fill="#4bae90" />
+  <g transform="translate(448.7172477201104,104.39465407980737)">
+    <rect height="39.222619650097684" width="142.7514330590543" fill="#bd528b" />
     <text y="35.30035768508792" class="label" style="font-size: 39.222619650097684;">Saint Gallen</text>
   </g>
-  <g transform="translate(11.670076880115028,31.389474702954537)">
-    <rect height="39.222619650097684" width="94.36111676784947" fill="#ad535b" />
+  <g transform="translate(11.670076880115028,402.3305106993)">
+    <rect height="39.222619650097684" width="94.36111676784947" fill="#7b3f83" />
     <text y="35.30035768508792" class="label" style="font-size: 39.222619650097684;">Annecy</text>
   </g>
-  <g transform="translate(164.3002652595838,278.5697725856763)">
-    <rect height="39.222619650097684" width="48.390316291204854" fill="#5460b6" />
+  <g transform="translate(164.3002652595838,155.1502128165783)">
+    <rect height="39.222619650097684" width="48.390316291204854" fill="#82c438" />
     <text y="35.30035768508792" class="label" style="font-size: 39.222619650097684;">Biel</text>
   </g>
-  <g transform="translate(177.0887209834525,318.813552514583)">
-    <rect height="39.222619650097684" width="116.13675909889164" fill="#a59882" />
+  <g transform="translate(177.0887209834525,114.90643288767154)">
+    <rect height="39.222619650097684" width="116.13675909889164" fill="#8167b9" />
     <text y="35.30035768508792" class="label" style="font-size: 39.222619650097684;">Delemont</text>
   </g>
 </svg>
